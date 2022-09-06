@@ -121,12 +121,15 @@ C++ <cmath> Header
 Other functions, such as sqrt (square root), round (rounds a number) and log (natural logarithm), can be found in the <cmath> header file:
 
 Example
-// Include the cmath library
-#include <cmath>
+    // Include the cmath library
+    #include <cmath>
 
-cout << sqrt(64);
-cout << round(2.6);
-cout << log(2);
+    cout << sqrt(64);
+    cout << round(2.6);
+    cout << log(2);
+
+
+
 
 
 
