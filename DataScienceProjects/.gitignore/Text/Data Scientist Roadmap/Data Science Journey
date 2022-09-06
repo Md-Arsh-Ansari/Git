@@ -1,0 +1,242 @@
+
+Prashant Data Science Journey on Microsoft:
+
+Start doing internship.
+
+Interview for internship.
+
+4 to 5 internships.
+
+
+Make sure you have done some Really cool projects which you can show in the interviews for internships.
+
+Internship is very crucial point. because, You have to know that compunies do not generally offer interview even without the experience.
+So, if you some experience then they will consider you for interview for the internship.
+
+
+
+Interview process:
+
+One thing which is common in all the companies willing to hire a data scientist:
+
+1. One round of around your Projects.: Its not about what you did. They don't listen it. 
+In data Science, around 20% of the time you will be modelling something. and other 80% of the time Data cleaning and doing software engineering stuff.
+So, its not about what you did it just about how you did. 
+
+What would you do if you do this project today.
+How you landed up this project into production.
+What is the elementary thing that going on there.
+
+2. DSA Round: 
+This is another round. Most of the aspiring data scientists worry about of this DSA round.
+
+Its not up to the level of ingineering. Its basic to medium level. 
+It does not have very high impect on the total feedback. If you OK OK in your Algo round and very good in data science it pretty much good to them. 
+And many company don't have a DSA Round. 
+
+3. Core Data Science: 
+this round is again very high impect round. you may be know DSA. you know what you did. But you don't know what is gradient descent, los function, the antropy, what is matric,
+So, you can't work with us you can't understand our language. 
+
+4. K study Round: 
+This is not so common round. This round is generally for experienced people its not for freshers, 
+You will be given some problem and you need to think about it how would you solve it. What comes in your brain, There is nothing right or wrong about it. 
+They don't see wheather your answer is right or wrong, they focus only and only on your approch and after giving you some feedback about it. they will focus on your reaction over their feedback. Wheather you are very rigid on your approch. Data Science is all about experimentation. you have to be flaxible. not rigid.
+
+1. Basic core ML and upbit on my project.
+2. TSA or DSA: there were two question need to solve in one hour. 
+It will be normally from low to medium level. Mostly around arrays , strings and might involve some DB problems. but involve some complex data structures like trees heevs.
+
+
+
+3. K study Round: 
+4. Hiring Manager Round.: This round was all about me have i ever led a team. What projects have i done. have you gone to production ever.
+
+I would recommed talk to a recruiter. Your recruiter will defenitely help you in understanding your interviewer profile. 
+Check out their interview profile on linkedin.
+And there some overlapping work over interviewr with you. 
+I would really, say that go thoroughly on the topic. because defenitely that one will come. 
+
+
+
+Roadmap:
+
+Basics Python: Advance level is not required. 
+
+Basic Maths: Understand basic maths. specially differentiation. 
+
+Modeling: 20% of the time you will be modelling. and 80% of the time you will be playing with the data. You should know how to play with the data.
+
+So, learn basics of SQL. basics of OpenCV. 
+in Python. Pandas and numpy.
+
+Before Machine Learning, I would strictly recommend to go some basic algorithms: very basic algorithm like KNN, distance based algorithm,
+For initial tools i would really recommend to even implement them from scratch. So, once you implement them from scratch. you will have an understanding ok how this is going to perform when you training the model, when you testing the model. 
+Initial two three algorithms just follow a bit from scratch. 
+And then jump directly into the Sklearn package. 
+ScikitLearn package has a very good documentatiton, 
+
+Then you can catogorise a roadmap for you like: 
+in preprocessing: 
+    these steps.
+in Data modelling:
+    these steps.
+in Tree Based classifier:
+    these steps.
+
+and there is also very extract implementation present.
+
+Then you should jump to a little detailing of that algorithm. 
+What all assumption that algorithm make. 
+what all challenges that this algorithm could face.
+
+Then Only you should jump to Deep learning.
+And learn gradient descent, then bnn, then cnn.
+
+Resources cum mentor for Data Sciene:
+    1. Kaggle
+    2. StackOverflow
+
+kaggle: follow peoples notebook. following discussion on that notebook is very healthy.
+
+1. Andrew Ng deep learning specialisation course not the old one.
+2. StatQuest by Josh Starmer: for machine learning alogrithm.
+
+3. for Deep Learning algorithms: course by andrech carpethy Stanford course available on Youtube: CS229.
+
+CS224 for NLP.
+CS231.
+
+Andrech Carpethy website
+En good fellow  website
+Jay Almar for NLP website
+Satosa website for image karnals.
+
+
+Salary: 
+
+Fresher working on startups: 5 to 10 lakh
+For good Startup: 10 to 15 lakh
+For Faang level startup: range upto 25 lakh.
+If you have 2 to 3 years of experience: in Faang or cool startup like creed, sharechat, myntra:  it can go 30 to 32 Lakh.
+
+Going to very normal company:
+if you have more than 1 years of experience: Earning 10 Lakh plus is a norm there now.
+
+
+
+----------------------------------------------------------------------------------------------------------------
+                            Geologist to Data Scientist:
+
+    Study with blogs like: 
+Towards DataScience, Analytics Vidya . These are to the point.
+
+    Job Apply:
+I have been applying since November 2020 and till almost aprail.
+
+I used to apply 20 companies / Day. And this was my mandatory thing for every day.
+
+
+    Position:
+Decision and Analyst Associate.
+
+
+If company has a job posting its better to get reffered.
+There are thousand of candidate applying for that job but what makes you stand out. :   By getting a refferal.
+
+So, You will have to contact the people who are willing to give you a refferal based on Your CV.
+Even Getting a refferal is a big task.
+
+
+
+Data Science is all about Persistence
+
+If you can pickup the laptop. You can sit 10 to 12 Hours a day for 5 to 6 months.
+
+You will be able to do projects on Kaggle. You will gain that kind of skillset.
+
+But Its all about persistence and Patiance.
+
+
+
+Make connections on Linkedin:
+
+How well you can maintain your connections on linkedin.
+
+If a person in the company a guy appliying on  vows for the guy on linkedin. So, obviously that guy will get job on the company. Not the guy who is applying through the site.
+
+So, you need to have connections, you have to build connections on linkedin. You need to be active their. 
+
+
+Watch again this podcast. After completing syllabus.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+                    Bio Graduate to Sales Job Became Data Analyst
+
+We need to know to become a data Analyst:
+
+    Excel
+    Basic Python
+    Tableu
+    SQL
+    Machine learning along with statistics.
+
+
+
+
+When you are applying for any company did they raised conserned for your past background:
+
+    Odin school shared my resume. I didn't really know if my resume is getting rejected. 
+For company applying for my side then Yes my resume were getting rejected. Not a lot of time because of my Degree. Because these days i don't think its depends on your degree whatever you do. It depends on what skills you afford. And how you are giving an interview. It actually good to give 7 to 8 interviews or 12 to 15 interviews because i actually understood how IT industry works. I understood the pattern of their interviews. 
+
+
+Projects and Resume:
+
+We have given a proper project for every module and we used to upload that project on Github like after completing python module. We used to given a small programming challenge like projects. which we could show that on github. We used to upload every projects on github after doing a module. 
+Capstone projects helped me a lot. 
+I worked on some one or two datasets from kaggle and github which was really easy and i was able to understand what i am doing and practiced on them and uploaded that also on my github. 
+
+So, this is what i have done on my projects and presented to Interviewrs.
+
+
+
+Interview Rounds:
+
+there are around 3 to 4 interview round 3 is minimum and 4 is maximum.
+
+1. HR Round: first round would be hr Round which would be very small round where in you are just on call you are talking to the HR. and they just see how you are communicating and how you communicate. 
+
+2. Aptitude Test: Some company have it where in you are checked on your maths skills or problem solving skills. so, that is again very less not all company does this. They can also give you the dataset on tableu or SQL or Machine learning and they can actually ask you to do the analysis and give it to them.
+Either it is Aptitude or they will give you the dataset and they will ask you to submit it in a day. 
+
+3. First Technical Round: Interviewr would ask some technical questions related to python, SQL, tableu, Machine learning. What i was asked is that : 
+    Basic Python skill like lambda function. they would also ask you some difficult questions as well. They would increase their difficulty level. on every topic. They might also ask you to write the solution of the question on chat section for SQL and for Python. for Tableu they might not ask about drag and drop question. they ask you about the basics of Tableu. 
+Then we come to Machine Learning. In machine learning they will ask you about your projects that you have done They would go to your github profile and then they will ask question on that they will ask you how did you do and what all things that you added into that. 
+And then they will ask few questions on statistics because statistics and machine learning go hand in hand. So, they expect you to know the theory before your practical. 
+
+4.  Second Technical Round: In this you will also have similar question but not very difficult again. if you are good with your basic knowledge i think you would get through it. 
+
+
+About my self: 
+
+    I was working on a sales domain. It was not an IT domain where i can skip a little time to study. So, i never had that. So, i used to work for 10 hours and then study for 2 to 3 hours. So, I think it was difficult but what kept me motivated is that my brother was on IT industry. I used to look at they way he used to work. He never had lot of stress. he used to say that this is what i learned today. So, this was my dream to work on a IT company and i will also learn new thing every single day and having a growth in my hand. 
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

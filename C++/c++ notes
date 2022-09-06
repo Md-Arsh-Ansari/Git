@@ -1,0 +1,137 @@
+C++ gives programmers a high level of control over system resources and memory.
+
+The main difference between C and C++ is that C++ support classes and objects, while C does not.
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
+
+
+    Line 1: #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
+
+    Line 2: using namespace std means that we can use names for objects and variables from the standard library.
+
+    Line 3: A blank line. C++ ignores white space. But we use it to make the code more readable.
+
+    Line 4: Another thing that always appear in a C++ program, is int main(). This is called a function. Any code inside its curly brackets {} will be executed
+
+    Line 5: cout (pronounced "see-out") is an object used together with the insertion operator (<<) to output/print text. In our example it will output "Hello World".
+
+    Note: Every C++ statement ends with a semicolon ;.
+
+    Note: The body of int main() could also been written as:
+    int main () { cout << "Hello World! "; return 0; }
+
+    Remember: The compiler ignores white spaces. However, multiple lines makes the code more readable.
+
+    Line 6: return 0 ends the main function.
+
+    Line 7: Do not forget to add the closing curly bracket } to actually end the main function.
+
+
+
+Omitting Namespace
+You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator for some objects:
+
+Example
+#include <iostream>
+
+int main() {
+  std::cout << "Hello World!" << endl;
+  return 0;
+}
+
+It is up to you if you want to include the standard namespace library or not.
+
+
+#Both \n and endl are used to break lines. However, \n is most used.
+
+
+
+To declare more than one variable of the same type, use a comma-separated list:
+
+int x = 5, y = 6, z = 50;
+cout << x + y + z;
+
+
+Constants
+When you do not want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):
+
+const int minutesPerHour = 60;   // minutesPerHour will always be 60
+const float Pi = 3.14;          // Pi will always be 3.14
+
+
+
+float vs. double
+
+The precision of a floating point value indicates how many digits the value can have after the decimal point. The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
+
+
+
+Scientific Numbers
+A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+int main() 
+{
+    int x, y, sum;
+    
+    float f1 = 35e3;
+    double d1 = 12E4;
+    cout << f1 << endl;
+    cout << d1 << endl;
+    return 0;
+}
+
+
+
+
+
+string fullName;
+cout << "Type your full name: ";
+cin >> fullName;
+cout << "Your name is: " << fullName;
+
+// Type your full name: John Doe
+// Your name is: John
+
+
+From the example above, you would expect the program to print "John Doe", but it only prints "John".
+
+That's why, when working with strings, we often use the getline() function to read a line of text. It takes cin as the first parameter, and the string variable as second:
+
+string fullName;
+cout << "Type your full name: ";
+getline (cin, fullName);
+cout << "Your name is: " << fullName;
+
+// Type your full name: John Doe
+// Your name is: John Doe
+
+
+
+C++ <cmath> Header
+Other functions, such as sqrt (square root), round (rounds a number) and log (natural logarithm), can be found in the <cmath> header file:
+
+Example
+// Include the cmath library
+#include <cmath>
+
+cout << sqrt(64);
+cout << round(2.6);
+cout << log(2);
+
+
+
+
+
+
+
+

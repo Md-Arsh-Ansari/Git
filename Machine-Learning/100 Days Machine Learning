@@ -1,0 +1,26 @@
+                            
+
+-----------------------------------------------------------------------------------------------------------------
+
+                            Day 2: AI vs ML vs DL
+
+AI : Main task of AI is Pattern Recognition, which was expert in Expert system. and was previously AI was equal to expert system. expert system: an expert system was used like an expert of chess game used to code nearly all possible outcome into a program using if else.
+But AI was failing in some area when it was using expert system. like it used to fail in image recognition, voice recognition etc. because it was not possible to code in if else all possible outcome of dog breeds or all possible meanings of a voices.
+Thats where Machine Learning came into the field. and solved this problem. 
+
+Machine Learning: Machine is a computer science field where you use statistical technique to find pattern and learn that pattern in your data. The main differnce in machine learning and symbolic ai or expert system is that you don't have to do explicit programming in machine learning. explicit programming means rule based programming where you code line by line for every logic or every possible outcome. 
+Instead you feed a data to your system. and your system finds patterns in your data and write rules for the pattern recognition and learn pattern through that data. so, that when system get new data they will find patterns in that data.
+
+Deep Learning: There is a peak came in recently though in around like 2012. Deep Learning is a Machine Learning. Same procedure same process. feeding data like train data. test data. and you predict pattern. The only difference is that the algorithm used by deep learning is a advance algorithm because it is inspired with our biology, biology of a human. inspired with our neuron. The core unit of Deep learning is based on biological neuron.
+Its performence increases when you add multiple layers of neuron. the performance and intelligence of system will increase as you increase the number of layers of neuron.
+Its performence increases and increases as we feed it data. The more we feed it data. the more its performence increases. While in machine Learning it also increases with the amount of data we feed to the system. but it increases for a certain limit. when it reaches a limit. after that its performance and intelligence can't be increased. And this is the main reason why Deep Learning comes in and why we need Deep Learning. 
+On big data Deep Learning is better but for a limited amount of task and data you don't use Deep Learning. 
+    "Aap sui ko use karne ke jagah Talwar nahi use kar sakte ho. aap wo use nahi karoge. aapko ek kabootar ko jibah karna hai. aap talwar bhi use kar sakte ho. lekin aapka kaam ek chote se chaku se hi ho ja raha hai to aap utne bade cheej ko kyu use karoge."
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
