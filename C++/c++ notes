@@ -131,6 +131,150 @@ Example
 
 
 
+Short Hand If...Else (Ternary Operator):
+
+There is also a short-hand if else, which is known as the ternary operator because it consists of three operands. It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements:
+
+Syntax
+variable = (condition) ? expressionTrue : expressionFalse;
+
+
+
+
+
+C++ Switch Statements
+Use the switch statement to select one of many code blocks to be executed.
+
+We should use it in the place of adding so many if and else if block.
+
+
+This is how it works:
+
+The switch expression is evaluated once
+The value of the expression is compared with the values of each case
+If there is a match, the associated block of code is executed
+The break and default keywords are optional
+
+
+  char button;
+  cout<< "Please type a button: ";
+  cin >> button;
+  
+  
+  switch (button) 
+  {
+    case 'a':
+      cout << "Assalamu Alaikum";
+      break;
+    
+    case 'b':
+      cout << "Hello";
+      break;
+       
+    default:
+      cout << "I am still learning!";   
+       
+  }
+
+
+
+The default Keyword
+The default keyword specifies some code to run if there is no case match:
+
+
+
+
+C++ While Loop
+The while loop loops through a block of code as long as a specified condition is true:
+
+
+The Do/While Loop
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+
+
+C++ For Loop
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+
+
+Syntax
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+Statement 1 is executed (one time) before the execution of the code block.
+
+Statement 2 defines the condition for executing the code block.
+
+Statement 3 is executed (every time) after the code block has been executed.
+
+
+
+
+Break 
+
+The break statement can also be used to jump out of a loop.
+
+This example jumps out of the loop when i is equal to 4:
+
+code on 
+
+int main() {
+  for (int i = 0; i < 10; i++) {
+    if (i == 4) {
+      break;
+    }
+    cout << i << "\n";
+
+>>>
+0
+1
+2
+3
+
+
+C++ Continue
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+This example skips the value of 4:
+
+int main() {
+  for (int i = 0; i < 10; i++) {
+    if (i == 4) {
+      continue;
+    }
+    cout << i << "\n";
+  }   
+  return 0;
+}
+
+>>>
+0
+1
+2
+3
+5
+6
+7
+8
+9
+
+
+
+Continue in While Loop:
+
+int i = 0;
+while (i < 10) {
+  if (i == 4) {
+    i++;
+    continue;
+  }
+  cout << i << "\n";
+  i++;
+}
+
+
+
+
 
 
 
