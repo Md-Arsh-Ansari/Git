@@ -1,6 +1,6 @@
 cd LearnGit
 
-###git Basic Commands:
+#git Basic Commands:
 
 git status
 git add bnb.py
@@ -12,16 +12,16 @@ git log
 
 
 
-mkdir folder1 ( to make a folder or repository)
-git init  (for initializing an empty git repository or folder)
-ls -a (to show hidden file)
-touch file.txt ( touch command to make a new file)
-rm file.txt (rm to remove the file)
-cat bnb.py (cat commad to show the lines on your file on terminal)
-git restore --staged file.txt (in case if you bring them to commit but now you changed your mind and you want to leave them back from the stage position or want to unstage them)
+mkdir folder1 #( to make a folder or repository)
+git init  #(for initializing an empty git repository or folder)
+ls -a #(to show hidden file)
+touch file.txt #( touch command to make a new file)
+rm file.txt #(rm to remove the file)
+cat bnb.py #(cat commad to show the lines on your file on terminal)
+git restore --staged file.txt #(in case if you bring them to commit but now you changed your mind and you want to leave them back from the stage position or want to unstage them)
 
 
-New Git Repository:
+#New Git Repository:
 
 git init
 git add .
@@ -70,6 +70,8 @@ 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
 
 
 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
+
+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
 
 
 

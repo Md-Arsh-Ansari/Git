@@ -275,6 +275,154 @@ while (i < 10) {
 
 
 
+C++ Arrays
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:
+
+string cars[4];
+
+To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
+
+string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+
+
+To create an array of three integers, you could write:
+
+int myNum[3] = {10, 20, 30};
+
+
+
+
+Omit Array Size
+You don't have to specify the size of the array. But if you don't, it will only be as big as the elements that are inserted into it:
+
+string cars[] = {"Volvo", "BMW", "Ford"}; // size of array is always 3
+
+This is completely fine. However, the problem arise if you want extra space for future elements. Then you have to overwrite the existing values.
+
+
+If you specify the size however, the array will reserve the extra space:
+
+string cars[5] = {"Volvo", "BMW", "Ford"}; // size of array is 5, even though it's only three elements inside it
+Now you can add a fourth and fifth element without overwriting the others:
+
+Example
+cars[3] = "Mazda";
+cars[4] = "Tesla";
+
+
+
+    C++ Functions
+
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+
+Create a Function
+C++ provides some pre-defined functions, such as main(), which is used to execute code. But you can also create your own functions to perform certain actions.
+
+To create (often referred to as declare) a function, specify the name of the function, followed by parentheses ():
+
+
+Syntax
+void myFunction() {
+  // code to be executed
+}
+
+    myFunction() is the name of the function
+    void means that the function does not have a return value. You will learn more about return values later in the next chapter
+    inside the function (the body), add code that defines what the function should do
+
+
+Call a Function
+Declared functions are not executed immediately. They are "saved for later use", and will be executed later, when they are called.
+
+To call a function, write the function's name followed by two parentheses () and a semicolon ;
+
+In the following example, myFunction() is used to print a text (the action), when it is called:
+
+
+Inside main, call myFunction():
+
+// Create a function
+void myFunction() {
+  cout << "I just got executed!";
+}
+
+int main() {
+  myFunction(); // call the function
+  return 0;
+}
+
+// Outputs "I just got executed!"
+
+
+
+    Function Declaration and Definition
+A C++ function consist of two parts:
+
+Declaration: the return type, the name of the function, and parameters (if any)
+Definition: the body of the function (code to be executed)
+void myFunction() { // declaration
+  // the body of the function (definition)
+}
+
+
+Note: If a user-defined function, such as myFunction() is declared after the main() function, an error will occur:
+
+
+However, it is possible to separate the declaration and the definition of the function - for code optimization.
+
+You will often see C++ programs that have function declaration above main(), and function definition below main(). This will make the code better organized and easier to read:
+
+Example
+// Function declaration
+void myFunction();
+
+// The main method
+int main() {
+  myFunction();  // call the function
+  return 0;
+}
+
+// Function definition
+void myFunction() {
+  cout << "I just got executed!";
+}
+
+
+
+Parameters and Arguments
+Information can be passed to functions as a parameter. Parameters act as variables inside the function.
+
+Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma:
+
+Syntax
+void functionName(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+
+    The Return Keyword
+
+Return Values
+The void keyword, used in the previous examples, indicates that the function should not return a value. If you want the function to return a value, you can use a data type (such as int, string, etc.) instead of void, and use the return keyword inside the function:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

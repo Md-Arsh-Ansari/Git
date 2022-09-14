@@ -68,6 +68,62 @@ Uska goal ye rahta hai. apne reward ko badhana aur punishment ko ghatana.
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                            Day 4: Types of Machine Learning
+
+Based on How the machine learning model train actually. specially on production.
+
+Now, 
+
+Production: What is production. Production is basically the server. where your code is going to run. and the environment of server where your code is running, is called Production environment. And the machine where you are doing your coding. is called development environment. 
+
+
+Two Types: 
+
+1. Batch Learning
+2. Online Learning
+
+
+    1. Batch Learning : 
+Batch learning is the convnetional way of training a machine learning model. where you are using all your data at once and utilize all yourr data to train the machine learning model. 
+You utilize your whole data to train the model. Data is generally so big. It as big as it could not trained on server. because it is costly and time taking. 
+You train the model offline. on your machine. and when the model is trained. you deploy your trained model into production. 
+e.g., You train your movie recommedation model in your machine. and then deploy or place this model into server. 
+
+But the problem here is that your movie recommendation model should update every week. in order to recommend properly. because platforms like netflix launch a new movie every week. It will not work on new movies. 
+or your spam detection model could not detect spam. because people who send spam mails. find new ways and new keywords to spam. where your model fail to identify those spam mails. 
+So, in Batch learning you have to retrain your model every time by yourself by identifying those kind of keywords. and by updating new movie names and videos. So, you have to do this intire things periodically. 
+
+So, here you don't train it online. instead of it, You pull down your entire model. You retrain it with new data. by merging new data into that old data. and then you put the model on server. again and again.
+
+Disadvantage: 
+    1. Lots of Data. : if you have lot of data. the training would be very difficult. Your code would break every time.
+
+    2. Hardware Limitation: If you can't connect with internet you could not pull the model. in case you have to update it. So, have to be always connected to the internet.
+
+    3. Availability: You could update it on minimum 24 hrs. you can't update it in less than 24 hrs of time.
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+                            Day 5: Online Machine Learning
+
+
+    2. Online Learning: 
+company promotions lines like: The performence of our products will increase as you use our product. The more you use it the more its performence increases.
+Then the company is using online Learning on their product. 
+
+Online learning quit unlike batch learning is incremental. You feed your model data in small - small batches, sequentially. These batches are called mini batch. After every training your model improve.
+This is called online Learning because your model is getting train on server or on production or when you are online. 
+
+You start with few data. and feed it to your machine. and send that on server. and on server you are continuously getting new data.
+And now your model is working on two task. It is doing its prediction on new data. and simultaniously learning also. 
+e.g,. Alexa, YouTube, 
+
+
+
 
 
 
