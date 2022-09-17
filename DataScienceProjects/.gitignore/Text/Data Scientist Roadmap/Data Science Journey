@@ -225,6 +225,138 @@ About my self:
 
 
 -----------------------------------------------------------------------------------------------------------------
+                Tips and Tricks to Learn Data Science Faster by CampusX
+
+
+1. Python, Pandas, Statistics basics, Data Visualization: These 4 things are crucially important. these are Fundamentals and Basics. Your fundamental and basics on this topics must be cleared. Because these are those 20% things which will come in use 80% of the time.
+
+
+2. ML Algorithms: Top 10 Algorithms are which would be ask on every interview are: 
+    Linear Regression
+    Logistic Regression 
+    SVM
+    Decision Trees
+    Random Forest
+    Bagin
+    Boosting
+
+   
+3. Learn by Doing: Make Projects. Because when you make projects. work on projects. Aapki Learning ko 1 Why mil jata hai. jiske baad aap jo bhi padhte ho wo aapke dimag me baith jata hai.
+
+
+4. Understand the Reward System: 
+
+
+5. Find a Mentor: 
+
+
+6. Find a study Partner or Study Group: 
+
+
+7. Spend time on Kaggle: scroll 15 to 20 minutes on kaggle even without any perpose.
+
+
+8. Don't follow the herd: Bhed chaal follow mat karo. like Andrew Ng ka course karna hi hai. is tarah ka bhed chaal ki sab kar rahe hai to mujhe bhi karna chahiye.
+
+
+9. Document Your Learning: Rivision, and Rivision.
+
+
+10. Focused Learning: 1 din me sirf 1 hi Hard cheej karo. jaise Python seekhte samay hum sirf Python me hi focus karte the us din usi tarah.
+
+
+11. Improve Analytical skills: Common sense improve karna chahiye. coding me aapko out of the box sochna padta hai. par Data Science ke field me aapko common sense lagana hota hai.
+download apps to improve common sense.
+
+
+-----------------------------------------------------------------------------------------------------------------
+                   How I would learn Data Science by CampusX
+
+1. False Expectations: 
+
+    6 Months me Data Science ya Machine Learning sirf utna seekh jana hai jitna interview me required hai. 6 Months me poora Data Science ya Machine Learning seekh jaenge aisa nahi ho sakta kyuki Machine Learning bahut hi jyada Vast field hai. Aap kisi Company me kaam karte rahte hai tab bhi Machine Learning me kuch kuch cover karte hi rahte hai. aur Machine Learning ke syllabus ko complete karne ka koshish karte rahte hai. Aur Machine Learning me bahut sare cheeje Update hote rahti hai. isliye jitna jaldi ho sake Interview me baithne layak Machine Learning seekh lena hai aur Interview me baith jana hai. 
+    
+
+2. Not Sticking to a single Roadmap: 
+
+Roadmap badalte nahi rahna hai. koi ek Roadmap pakadna hai. aur usko religiosly follow karna hai. Kahi par atke to kahi ka Roadmap follow karna shuru kar diye kahi pe atke to kahi ka roadmap me ghus gae. aisa nahi karna hai. Ek Roadmap pakadna hai. aur usi ko follow karna hai atak rahe hai to bhi usi me aage badhna hai.
+
+
+3. Lack of Consistency: 
+
+If you are consistant then your learning would add up. aap ne aaj padh aur kal phir padha to wo jud ke Add ho jaega. To conclusion ye hai ki Daily consitant padhai karna hai. Agar aap consitant hoge to apki Learning 10X ho jaega.
+
+
+4. Not mastering the Pillars of Data Science: 
+
+The 3 Pillars of Data Science-
+    1. Python
+    2. SQL
+    3. Statistics
+    
+    if you have given a 6 hours to cut a tree You should be invest your 4 hours of time into sharpening the axe.
+    In the field of Data Science you will incouter these 3 things on Daily basis. Apko Python aur Statistics to har din sabse jyada dikhai dega. 
+    Agar aapne in teeno chijo ko to master nahi kar rakha hai. Aur aapne kisi ka code uthaya apne me implement karne ke liye aur aap usko study karne ki koshish kar rahe ho. to aap suddenly se notice karenge ki use Python ka ek complex ka syntax likha hua jo aapko samajh me nahi aa raha hai. aapko koi idea nahi hai us code ka. to ab aap kya karenge aap usko band karoge aur koi doosra notebook utha ke padhne lag jaoge. 
+    Lekin aapne Python, SQL aur Statistics ko master kar chuke hai to aapko Daily Basis pe Problems nahi hongi. To aap time do pahle Python SQL aur Statistics ko ache se seekhne me. Ye aapke Aage ki journey ko bahut smooth bana dega. 
+    
+    
+5. Practical Aspect of Data Science: 
+
+    a) Data Cleaning or Data Preprocessing
+    b) Feature Engineering
+    c) Exploratory Data Analysis (EDA)   
+    
+    Interview crack karna ek baat hai. phir industry me ja kar ke ek Ache Data Scientist ki tarah kaam karna ek bahut alag baat hai. If you want to become a good Data Scientist in a practical way not just in interview. Then You must master these 3 things. These are the Magical Qualities of a Data Scientist. these all things are based on practice so take datasets, try to clean them, perform EDA, perform feature engineering. 
+    
+    
+6. Real world Datasets: 
+
+Not trying out real world datasets was also my one of the mistakes that i have done while learning Data Science. 
+Agar mujhe phir se seekhne ka mauka milega to mai Kaggle pe jaunga, aur waha se real world based Datasets khojunga aur unke oopar kaam karunga. 
+
+
+7. Learning ML Algorithms on wrong order: 
+
+Aap kuch algorithms pe jyada time Spend karo: Linear Regression, Logistic Regression, SVM, PCA, ON SOMBLE Learning which includes Baging, Boosting, Stacking etc. 
+Aur in sabko Algorithms ko seekhne ke order me pahle seekhna hai. pahle cover karna hai. 
+kyuki agar inko baad ke liye choroge to utne ache se tayari nahi kar paoge. Iske baad jitne bache hue algorithms hai unko cover karna hai jaise: KNN, Neive Baiese, ye sab baad me karna hai.
+Google search Which are the Top 10 Machine Learning Algorithms. then in 10 ko sabse pahle padhna hai. aur baki ko baad me. nahi to sequence bigda to shuru wale me strong rahoge aur baad wale me weak ho jaoge. 
+
+
+8. Deployment and Monitoring of Models: 
+
+I haven't gave much attension on Deployment and Monitoring of Models. shuru ke dino me mai kisi tarah se model bana diya karta tha aur model bante hi mera kaam khatam ho jata tha. 
+Agar aap abhi ke Date me Job dhundh rahe ho Data Science domain me to Abhi Companies ye expect karti hai ki jo candidate hai usko sirf Model banana hi nahi model ko deploy karna usko monitor karna, usko product me convert karna bhi aana chahiye. 
+Suggestion: Agar aaj aap apna pahla project bana rahe ho to uske liye bhi aap socho ki mai isko ek website me kaise convert kar sakta hu, kaise mai isko online la sakta hu, kaise mai isko monitor kar sakta hu, kaise mai iska cost reduce kar sakta hu. Ye aapko hamesha sochna padega. aap aisa nahi kar sakte ki aapne pahle modeling seekha aur last me ekdam ek hafta laga ke Deployment me kaam kar rahe ho. nahi . agar aapne 10 projects banae hai to daso project ko Online Le ke jao. Alag alag Platforms ke oopar kaam karo. Heroku, AWS, Azure GCP . in sare Platforms ka flavour lo CICD pipelines kya hote hai. Different Operating system ke oopar aap apne model ko deploy kar ke dekho . ye sabkuch aaj ke date me important ho gaya hai. Aaj ke Date me ek Nai Field nikal ke aai hai. MLops kahte hai. aur agar aap Job description me ja ke dekhoge companies ka to ye mentioned rahta hai, ki the candidate should have good skill in ML ops. So, if you are starting out please focus on Diployment. 
+
+
+9. Interview Prep. : 
+
+mujhe agar abhi shuru se shurat karne ko kaha jae to Jaise hi mai koi Topic cover karunga. to mai saath hi saath us topic ka Interview preperation bhi karunga. Lets Say Linear Regression ke Padhai ki and i have done it. to mai search karunga ki Linear Regression ke oopar kaun se questions pooche jaate hai. aur saath hi saath isko bhi cover kar lunga. 
+To jyadatar log ye approch follow karne ki koshish karte hai ki wo pahle ke 4 mahine ya 6 mahine padhai karte hai aur phir last me ek mahina ya do mahina alag se Interview preperation karte hai. Mera manna hai ab itna experience gather karne ke baad ki ye dono processes aap ko saath me simultaniously follow karne chahiye. tab aapko jyada benifit dega. Agar aap 6 mahine padhai kar rahe ho. to 6 mahine interview preperation bhi karne hai. alag se interview preperation mujhe nahi lagta ki is a logical way of doing it. What you should do is right from day 1 you should also start interview preperations. 
+
+
+10. Mentor & Study Groups: 
+
+My last mistake was Not having a Mentor & Study Groups. 
+
+Mentor aapka rasta aasan kar deta hai. apni galtiya aapke saamne rakh kar ke taki aap un galtiyo ko repeat na karo. kahi bhi aap atak jate ho jaise machine learning me to aapka time bhi bacha deta hai. So, You should get a Mentor. Kya padhna hai kya nahi padhna hai bahut easily samajh me aa jane lagega. e.g., SQL ke baare me puchna ki Sir SQL daily basis me kaam aata hai. kya cheej padhe SQL me jo according Data Science bahut jyada important hai. aur jo sabse jyada baar use me aaega.
+
+Study Groups: aapke Pears hone chahiye aapke jaise log jo data Science me ghusna chahte hai. 
+agar aap ek group form kar lo 2 log ke ho to bhi chalega 3 logo ke ho to bhi chalega. aapka motivation khatam ho jata hai, Patrol khatam ho jata hai un dino me aap un logo se baat kar sakte ho aur wo apko help out kar sakte hai baat kar ke. kisi problem me phase ho to wo asani se solve ho sakta hai. Basically ye bahot jyada important lagta hai. 
+    e.g., Famous Study groups se buddy bana ke another group banana hai aur waha chat karna hai. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
