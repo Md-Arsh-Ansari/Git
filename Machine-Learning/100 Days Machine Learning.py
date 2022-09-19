@@ -182,9 +182,70 @@ eg., Linear regression, Logistic regression, Decision trees.
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                            Day 7: Challenges in Machine Learning
+                            
+
+1. Data Collection: While learning you have so many data. data given by your teachers, given on kaggle etc. But while doing your actual machine learning job on a company. Then data collection or data gathering is quite difficult. 
+You can fetch data from an API or you can do web scraping. These are the two famous approch.
+But on these approch also bahut tarah ke gadbad ho sakte hai. aap doosre ke server se apne machine me data la rahe ho. to is lane ke process me bahut sare problems ho sakte hai.
 
 
-    
+2. Insufficient Data / Labelled Data: aapke paas data aa bhi gaya to kya wo sufficient hai. aur agar wo sufficient hai to kya wo labelled hai. 
+Koi ek algorithm jo bahut acha hai par wo 100 rows of data collect karta hai. aur koi doosra algorithm hai jo utna acha nahi hai par wo 1 millions of data collect karta hai. to aapke liye wo doosre algorithm useful hai.
+
+
+3. Non Representative Data: Data agar aadha hai aur wo aadha sach bol raha hai ya aadha kahani bata raha hai to aapko wo result galat dega. 
+
+
+4. Poor Quality Data: aap apna 60% time data ke quality ko sahi karne me gujar dete ho. e.g., outliers, abrupt format me value. 
+if your data quality is poor your results are going to poor.
+
+
+5. Irrelevant Features: Garbage in Garbage out. kis input ko rakhna hai. kis input ko nahi rakhna hai ye decide karna mushkil hota hai. kyuki agar aap garbage input karoge. to garbage output aaega.  
+
+
+6. Overfitting: agar ML model data ko rat leta hai. wo uske peeche ka concept nahi seekh pata hai. to new data me wo acha perform nahi karega. 
+Training data ko leke kuch jyada hi serious ho jata hai. wo insight nahi nikalna jaanta, overview nahi lena jaanta wo bas training data ko hu bahu follow karta hai.
+
+
+7. Underfitting: Underfitting is just opposite to overfitting. model training data ko seriously leta hi nahi hai. wo bas oopar oopar se dekh ke hi ek opinioun bana deta hai. aur output predict kar deta hai. 
+
+
+8.  Software integration: Machine learning ko banaya hi isliye jata hai. ki use software me dala jae. lekin har software machine learning ko itna jaldi accept nahi kar paata hai. wo ho sakta hai. windows ka software alag hote hai. mac ke alag aur linux ke alag. aur software jaise agar java ko use kar ke banaya gaya hai. to isme bahut jyada hacking karna padta hai. aur model ko dalna bahut mushkil hota hai. 
+islye koshish kare End to End product banane ka. bas ML model bana ke baith nahi jana hai. usko website me ya app me convert kiya jae. 
+
+
+9. Offline Learning / Deployement: Deployment me bahut cost lagta hai. aur aapko insure karna padega ki aapka model constantly update hote rahe. aur update ke liye Deployement karna hi padega. 
+
+
+10. Cost involved: agar aap bade scale me koi cheej kar rahe ho. Product bana ke use deploy kar rahe ho. aur daily basis me 10,000 se 1 Lakh user us software ko use kar rahe hai jaha par aapka Machine learning model run kar rahe hai. to bahut saare jagaho aur bahut saare alag alag areas se aapko paise lagne lagenge. Hidden cost lagne lagenge. aur jiske liye companies allow bhi nahi karenge.
+Ab aapka task ye hai ki un kharcho ko kam kaise kiya jae. aapko seekhna hai Machine Learning product ko banana aur chalana dono seekhna hai.
+MLops: Machine Learning model ko server me daal ko uska kharcha manage karna, Load balancing karna ye sab aur ye aaj ke date me bahut Growing field hai. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
