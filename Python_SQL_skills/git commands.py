@@ -12,7 +12,7 @@ git log
 
 
 
-mkdir folder1 #( to make a folder or repository)
+mkdir folder1 # ( to make a folder or repository)
 git init  #(for initializing an empty git repository or folder)
 ls -a #(to show hidden file)
 touch file.txt #( touch command to make a new file)
