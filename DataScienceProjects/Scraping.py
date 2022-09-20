@@ -21,10 +21,10 @@ for job in jobs:
     skills = job.find("span", class_="srp-skills").text
 
     # Because this is a header. and "soup.find_all" applies inside only li tag.
-    more_info = job.header.h2.a['href']
+    ###################more_info = job.header.h2.a['href']
 
     print(f"{count}. Company Name: {company_name.strip()}\n")
     print(f"Required Skill: {skills.strip()}\n")
-    print(f"More Info: {more_info}\n")
+    ##################print(f"More Info: {more_info}\n")
     print("\n\n")
     count += 1

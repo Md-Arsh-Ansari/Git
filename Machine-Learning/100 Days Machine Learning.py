@@ -226,6 +226,44 @@ MLops: Machine Learning model ko server me daal ko uska kharcha manage karna, Lo
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                          Day 8: Application of Machine Learning
+
+
+B2B: There are so many B2B examples are there. like YouTube pe video recommendation, Facebook pe friend recommendation, amazon pe product recommendation etc.
+
+B2B : Business To Business Machine learing ek product me ghus ke ek business ko help kar rahi hai usko run karne me. 
+B2B ki agar baat kare to ye B2C se bahut jyada paisa kamane wala cheej hai.
+
+Machine Learning B2B me kaise Help kar raha hai: 
+
+Retail Sector: Retail me ML bahut jyada use ho raha hai. like Amazon me Sales start hone se pahle Data Analyst, Machine learning engeneer in sab ko bhithaya jata hai aur ye find karne ko kaha jaata hai. ki kin kin products ka humlog ko stock jama karna padega.
+Big Bazar: Ask for Phone number. Track karte hai. buying behaviour ko. jaise health wale cheeje aap khareedte ho to ye log categories karte hai ki aap health ko le ke concious ho. aur baad me ye companies is data ko third party ko bech dete hai. aur phir waha se aapko call aata hai ki sir aap gym membership khareed lo etc etc.
+kaun sa saman kaha rakhna hai isme bhi ML use hota hai correlation nikal ke ki ye product is product se bahut jyada coreleted hai.
+
+
+Banking and finance: 
+Loan kisko dena hai. kisko nahi ye sab aapke profile ko dekh ke bata sakte hai. ki aap loan chukaoge ya nahi.
+
+
+Transport OLA:
+kis area me driver ka supply bahut kam hai aur ek perticular time me demand bahut jyada ho jata hai. jaise Office ke chuttti hone ke samay. to OLA cab drivers ko map me show kara deta hai. ki is area me jane par aapko 2 X  ya 3 X jyada fare price milega.
+
+ 
+Manufacturing - Tesla: 
+Predictive Maintainence me bahut help karta hai. jaise Tesla me jo automated equipments hai jo car ke alag alag parts ko bana rahe hai unme "IOT" ("Internet Of Thing") dala jaata hai. jo un equipments ke temperature pressure ye sab cheej ko measure karte rahte hai. aur us data ko ek server me bhejte rahte hai. phir Analysis kar ke ingeneers ko bheja jata hai ki jao us machine me gadbadi aa raha hai. aur is tarah machine ke kharab hone se pahle hi usko thik kar liya jata hai. isi ko kahte hai. Predictive Maintainence.
+
+
+Consumer Internet- Twitter.
+eg., Sentiment Analysis: kar ke ye pata lagana ki Narendra modi jeetenge ya mamta banarji jeetengi. 60% tweets Narendra Modi ke favour me hai. aur 40% tweets mamta ke support me hai. to Twitter ye data ab different companies ko bechega. like Stock brokers. aur ab uske paas jitne aadmiyo ka paisa hai. wo un paiso ko le ja ke un companies me laga dega jo BJP ke jeetne par aur oopar jaengi jaise JIO. aur is tarah stock brokers ko profit hoga. twitter ko bhi paisa mil gaya. 
+
+
+
+
+
+
+
 
 
 
