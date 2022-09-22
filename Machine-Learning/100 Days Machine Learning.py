@@ -259,6 +259,48 @@ Consumer Internet- Twitter.
 eg., Sentiment Analysis: kar ke ye pata lagana ki Narendra modi jeetenge ya mamta banarji jeetengi. 60% tweets Narendra Modi ke favour me hai. aur 40% tweets mamta ke support me hai. to Twitter ye data ab different companies ko bechega. like Stock brokers. aur ab uske paas jitne aadmiyo ka paisa hai. wo un paiso ko le ja ke un companies me laga dega jo BJP ke jeetne par aur oopar jaengi jaise JIO. aur is tarah stock brokers ko profit hoga. twitter ko bhi paisa mil gaya. 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                          Day 9: Machine Learning Development Life Cycle
+                          
+
+It is a set of Guideline which you have to follow when you make machine learning based software product.
+it will teach you the complete process from idea to Product.
+
+
+1. Framing the Problem: aap apne college ka project nahi bana rahe ho. ek well trusted company ke liye poora model bana rahe ho. aap launch ke baad ye nahi bol sakte ki nahi isko aisa hona chahiye tha aisa ho gaya, ab isko shuru se badlte hai. 
+aapke shuru se last tak har cheej ka Framing karna padega. kharcha kitna lagega, kitne logo ki team chahiye. end product kaisa dikhai dega. aapka jo Model hone wala hai wo Supervised hai. ya unsupervised hai. offline hoga ya batch mode me chalega. data kaha se aaega. is tarah ke saare problem ka solution pahle se ready rahna chahiye. 
+
+2. Gathering Data: from csv, api, web scraping, ya ETL, data kaha se lae aur usko kaha aur kis form me store kare. jaha se ki constantly us data ko access kar sake.
+
+3. Data Preprocessing: Cleaning the data like remove duplicates, handle outliers, scaling, 
+
+4. EDA: input aur output ke bich ka relation nikalne ki koshish. data ke baare me jitna jaan sakte ho jaan lo. aapko bahut saara experiment karne hote hai. aur data ke andar ke relationships ko find karna hota hai. ki we kaise ek doosre se jude hai.
+yahi aap graph wagairah plot karte ho. isi step me visualization karte ho. mean, standerd deviation find karna sab isi step me karna hota hai. ye wo step hai jisko kulhadi tej karna kahte hai. kulhadi ko aap jitna jyada tej karoge ped kaatne me utna kam mehnat lagega. 
+
+
+5. Feature Engineering and Selection: 
+input column ko select karna. ki kisko rakhe kisko nahi rakhe taki load na pade. aisa input jisko rakhne ka koi meaning nahi banta hai. usko hatana wagairah.
+
+6. Model Training, Evaluation and Selection: 
+khub sare model se check kiye ki is data me kaun sa algorithm acha perform kar raha hai.
+final model ko select kar ke aap uske settings ko tune karte ho taki uska performence aur improve ho jae.
+
+
+7. Model Deployment: apne ML model ko utha ke server me daal dete ho. so that usko website me ya android app me istemal kiya ja sake. 
+apne ML model se ek binary file bana lete ho aur API me convert kar dete ho. hum jaante hai ki API me sahi input de to wo palat ke JSON deta hai.
+user website me ek input dega. input server me python app ko milega. python API ke paas wo input bhejega. API me aapki wo binary rakhi hui hai. jo apna kaam karega Prediction kar ke. aur yahi prediction ko JSON ke form me user ko dikha dete ho. 
+to deploye you use tools like heroku etc.
+
+
+8. Testing: Apne kuch chuninda aur trusted customer ke paas koi naya feature bhejte ho. aur unse feedback lete ho. feedback positive milta hai to aage proceed karte ho. aur negative milta hai. to peeche ke model ko hi chalne dete ho.
+
+9. Optimize: agar feedback positive mil jata hai. to at scale us feature ko launch karne se pahle kuch steps lete ho jise optimization kahte hai jaise: 
+    Model ka backup lena,
+    data ka backup lena,
+    load balancing
+    kharche ko kam karne ki koshish karte ho.etc etc.
+    
 
 
 
