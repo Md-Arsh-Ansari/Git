@@ -767,15 +767,16 @@ mydb.commit()
 
 sudo mysql_secure_installation
 
-UPDATE mysql.user SET Password=PASSWORD('Arsh880@') WHERE User='root';
+UPDATE mysql.user SET Password='Arsh880@' WHERE User='root';
 
-mysql -u root -p
+mysql -u root -p 
 
-
-
-
+Sorry, try again.
 
 
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Arsh880@';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
 
 --MySQL Password Setting: 
 
@@ -785,6 +786,7 @@ import mysql.connector
 mydb = mysql.connector.connect(host='localhost', user='root', password='Arsh880@')
 print(mydb.connection_id)
 
+mysql -u arsh
 
 
 
