@@ -304,6 +304,138 @@ to deploye you use tools like heroku etc.
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                      Day 10:  Data Science Job Roles
+
+
+'Job search engine': AngelList where startups post their jobs.
+
+    Data Engineer
+    Data Analyst,
+    Data Scientist,
+    Machine Learning Engineer, 
+    {MLops}
+
+
+'Various Data Based Job Roles': Saare job roles Machine Learning Development Life Cycle se nikal ke aae hai. kyuki Large scale par Itna bada process ye ek aadmi ke sar pe nahi thop sakte ho.
+
+1.'Data Engineer': 
+
+#Job Roles
+Data engineer ka kaam hota hai sara data la kar ek table par de dene ka. so that baki log us data ko use kar pae.
+
+ek sabse important kaam hota hai. DataBase se DataWarehouse banana. aur ye bahut hi specialised kaam hai. isme aapko kafi software ka knowledge hona chahiye. aur databases ka acha knowledge hona chahiye.
+Scrape Data from the given sources in a right format.
+Build data pipelines/APIs for easy access to the data. Ki API sahi se kaam kar rahe hai ki nahi.
+Handle databases/data warehouses. check karna ki databases break to nahi kar rahe hai.
+
+kyuki bade scale me data ko handle kar paana bahut mushkil hota hai.
+
+
+
+#skills Required
+Ye banda ek aisa banda hota hai jo ek proper software developer hota hai. jisko back end , databases, aur server ka poora knowledge ho. 
+
+Strong grasp of algorithm and data Structure.
+Progamming Language (Java/R/Python/Scala)
+Advavnced DBMS's' (SQL , NoSQL)
+Big Data Tools (Apache , Hadoop , Apache kafka, apache Hive)
+Cloud Platforms(Amazon Web Services, Google cloud platforms)
+Distributed Systems
+System design ka acha knowledge.
+Data Pipelines.
+
+
+Data Engineers ko bahut salary milta hai. uska ek reason ye bhi hai ki jo skills Data Engineers ko chahiye hota hai. wo itna easily nahi mil pata hai. isliye Data Engineers bahut kam hai is domain me. 
+
+This field is related to Data but not related to Data Science. It is for Hardcore Software ingineers. 
+is cheej me aap tab ghuso jab aap passionate ho software ko le kar ke. kyuki is task ko bade scale me ek software ka banda hi ache se kar sakta hai.
+
+2. Data Analyst: 
+
+Data Analyst ka ka data ka analysis kar ke Reports banana hota hai. taki log us report ko dekh kar ke aage ke model bana pae.
+
+Responsibility:
+Cleaning and organizing Raw data.
+Analyzing data to derive insights
+Creating data Visualizations
+Producing and maintaining reports
+Collaborating with teams, and collegues based on the insight gained 
+Optimizing data collection procedure
+
+Skills:
+Statistical Programming.
+Programming languages (R / SAS / Python)
+Creative and Analytical thinking(Common Sence).
+Business Acumen - Medium to high(let say Agar sports ke domain me ho to us perticular sports ka understanding hona chahiye)
+Strong communication skills
+Data Mining , cleaning , and munging
+data visualization
+Data story telling
+SQL
+advanced Microsoft Excel
+
+
+
+3. Data Scientist: 
+
+One line: "A data Scientist is someone who is better at statistics than any software engineer and better at software engineering than any statistician."
+
+Data Scientist is a 'Full Stack' guy. Data Scientist wo banda hota hai jo is 'Machine Learning Development Life Cycle' ka har kaam kar sakta hai.
+
+Analytical Skill ka jaroorat hota hail jisko normally "common sense" kahte hai. 
+Data Analyst ka kaam hai, past me dekhna ki kya hua, kyu hua , kaise hua, uska reason kya tha. ye kind of summary dene ka kaam karte hai.
+
+Where as Data Scientist ka kaam hai. data ko samajh kar ke future ke liye kuch banana. ye kind of Predictive analysis dete hai. ki future me kya ho sakta hai.
+
+Your Main goal should be to become a Data Scientist because this is the guy who is the main guy. Data Scientist is a Full Stack Guy.
+
+
+ek Badi company me Data Scientist Role hota hai. ek end to end 'Model create' karna best performing model create karna.
+But 
+At a startup or a small company: You will be performing all the roles, may be us company me Data Engineer na ho to aapko Data Engineer ka bhi role play karna padega.
+
+
+Bahut jagaho par ise "Decision Scientist" bhi kaha jata hai. 
+is field me ghusna hai to main goal you should apply for is this "Data Scientist".
+Sare Algorithm ka gyan hona chahiye. Maths tagda hona chahiye. Thoda bahut software aana chahiye, analytical skill bahut achi honi chahiye. Communication skill bahut achi honi chahiye. kyuki aapko Data Analyst ke saath baat karni hai. aapko us bande se baat karna padega jo is 'machine learning model ko software me deploye' karega.  
+
+
+
+4. ML Engineer: 
+
+ML engineer ka kaam bahut chota sa hota hai. 
+ek baar model ban gaya to wo kewal us bane banae model ko website me ya app me deploy karwaega. 
+
+The work of a Machine Learning Engineer is to bridge the gap between Data Scientist’s work and production environment. A Machine Learning Engineer is more concerned with deploying production-ready models. For an example, think of a recommender system machine learning model trained with a data set and has achieved great results, now that model needs to be deployed as part of a company’s website to make the site better and thus, help generate more revenue. But what if that model is not production-ready yet? This is where a Machine Learning Engineer comes into play. Deploying machine learning models to a production-ready environment is an engineering concern that is different from building the model. It involves different types of engineering work such as integrating the model to a software system, optimizing the model for performance and scalability, and re-training it with new data, monitoring, and maintenance the ML system
+
+software ingeener wala banda us Data Science wale bande se baat hi nahi kar paega kyuki dono ki experties alag alag hai. 
+So, you need to bridge this knowledge gap. thats why a new job profile comes in "Machine learning Engineer".
+
+
+kyuki probably Data Scientist ko Software development nahi aata. aur jo software Developer jo hote hai. unko Data Science nahi aata.
+ 
+Responsibility: 
+Deploying machine learning models to production ready environment.
+Scaling and optimizing the model for production
+Monitoring and maintenance of deploying models.
+
+Skills: 
+Mathematics
+Programming Languages (R/Python/ Java / Scala mainly)
+Distributed Systems
+Data model and evalution
+Machine Learning models
+Software Engineering & System design.
+
+
+Mere hisab se aapko Data Scientist banna chahiye. 
+Bahut jyada paisa chahiye. to Data Engineer Ban jao.
+Agar aapko bas data ke saath khelna hai. Model wagairah nahi banana hai. bahut jyada Maths me nahi ghusna hai. to Data Analyst ban jao.
+Aur kuch nahi bhata hai. to Machine learning Engineer Ban jao.
+
+
 
 
 
