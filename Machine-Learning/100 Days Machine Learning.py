@@ -306,7 +306,7 @@ to deploye you use tools like heroku etc.
 
 -----------------------------------------------------------------------------------------------------------------
 
-                      Day 10:  Data Science Job Roles
+                         Day 10:  Data Science Job Roles
 
 
 'Job search engine': AngelList where startups post their jobs.
@@ -437,17 +437,117 @@ Aur kuch nahi bhata hai. to Machine learning Engineer Ban jao.
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 11:  What are Tensors.
+                         
+
+Tensor is nothing but a Data structure. Data Structure matlab data ko store karne ka tarika. Means it is a container to store numbers. 
+
+Why we are studieng Tensor First: Because libraries like Scikit Learn, Tensorflow all use Tensor. If you are solving any problem on the field of machine learning or deep learning you would be using tensor.
+
+Vectors and Matrices are also tensor. 
+when they have zero dimension. you call them scalar. like a single number. 
+Jb list of number hote hai to unko vector kaha jata hai. aur jab 2 Dimension me number hote hai. to unko matrices kahte hai. lekin agar wo 3d me ho to unko kya bolenge. 4d me ho to unko kya bolenge. 
+To ye decide kiya gaya ki ek general term decide karte hai. And they called it 'Tensor'.
+To 'n dimensional' array ko 'Tensor' kaha jata hai.
+
+
+2. 0D Tensor / Scalar: 
+
+is tensor ka number of dimension zero hai.
+
+
+3. 1D Tensor / Vector: 
+
+1D array or simply array. 
+
+no. of axis = rank = no. of dimension
+
+[1, 2, 8, 9]
+is example me
+    Tensor = 1D hai. lekin
+    Vector = 4D hai kyuki jitne number honge wo utne dimension ka vector hoga.
 
 
 
+if you want 1D Tensor. which are vector. then you have to add multiple 0D Tensor. means you have to add multiple scalar.
+
+if you want 2D Tensor. which are matrices. then you have to add multiple 1D Tensors. means you have to add multiple vector.
 
 
+4. 2D Tensor / Matrices:
+
+Vectors: [1, 2, 3]  ,  [4, 5, 6]  ,   [7, 8, 9]
+
+Matrices: collection of vectors.
+=
+[ [1, 2, 3]
+ [4, 5, 6]
+ [7, 8, 9] ] 
+ 
+ Dimension is 2D = 1 column axis and 1 row axis.
+ 
+Shape: (3, 3)
 
 
+      #Tell the shape and no of items of following matrices:
+a)     [[1, 2],
+       [4, 5],
+       [7, 8]] 
+       Shape = (3, 2)
+       items = (3 x 2) = 6
+       
+b)      [ [1, 2, 3]
+         [4, 5, 6] ] 
+         Shape = (2, 3) 
+         items = (2 x 3) = 6
+       
+       
 
+5. ND Tensor :
 
+if you want to make a 3D tensor: 
 
-
+    and you have 1 matice. which contain 3 rows and 3 columns. means.
+    shape of 1 2D tensor/matrice = (3,3)
+    then you make more 3 matrices. after making now you have total 4 2D Tensor/matrice in total where every matice contian 3 X 3 arrangement. 
+    means 
+    4 X 3 X 3 then this would be 3Dimensional Tensor.
+    because you have a collection of 2D Tensors.
+    which is 4 collection of 2d Tensors/matrices.
+    
+    shape of this 3Dimesional Tensor example= (4, 3, 3)
+    number of item = (4 x 3 x 3) = 36
+    
+   
+    
+    
+    Lekin machine learning me aap zero se 5D ke beech me hi kaam karte ho.
+    
+    0D to 5D.
+    
+     
+     1D or 2D Tensor:
+    Machine learning me Sabse jyada 1D aur 2D Tensor use hote hai. 
+    
+     3D Tensor:
+    3D tensor ka use  'NLP' me aur 'Time series' me hota hai. Time Series ka use stock market me aur medical ke field me bahut hota hai.
+    
+     4D Tensor:
+    4D Tensor ka bahut badhiya use hai. Image based data. and field is called "Computer Vision (CV)". 
+    
+    
+    5D Tensor: 
+    Collection of Videos is a 5D Tensor.
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
