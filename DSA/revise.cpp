@@ -11,14 +11,14 @@ int main()
     while (row <= n)
     {
         int column = 1;
-        while (column <= row)
+        while (column <= n)
         {
-            cout << row << " ";
+            cout << "*";
             column++;
         }
-
-        cout << endl;
+        cout << "\n";
         row++;
     }
+
     return 0;
 }

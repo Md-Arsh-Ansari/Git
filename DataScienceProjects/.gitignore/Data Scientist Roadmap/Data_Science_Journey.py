@@ -428,10 +428,24 @@ Humlog point A se point B multiple times jaenge. Poora ka poora cheej multiple t
 
 
 
------------------------------------------------------------------------------------------------------------------
-                      My Favorite Data Science Books by CampusX
 
-Proper Reference Material for Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

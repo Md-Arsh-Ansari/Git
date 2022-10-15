@@ -16,6 +16,10 @@ def printAl(arr,n):
         print(arr[i], end = " ")
 
 # Iterate karne wale me hamesha for loop lagana hai.
+# While loop tab lagana hai jab ye pata na ho ki hamara loop kitne baar chalega.
+Aur for loop tab lagana hai, jab ye pata ho ki loop kitne baar chalega.
+
+
 # 0 index ko print karne ke baad index 1 ko skip karke index 2 me jana hai to range me 
 (0, _ , 2) likhna hai.
 # By default, the print function ends with a newline(\n), agar newline ke jagah me space use karna hai to print me end = "space" (end = " ") de do.
@@ -155,20 +159,12 @@ int main()
     return 0;
 } 
 
-bbb
-bnbn
 
 
 
 
 
 
-
-
-
-
-
-git remote set-url origin https://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@github.com/Md-Arsh-Ansari/Machine_learning.git
 
 
 

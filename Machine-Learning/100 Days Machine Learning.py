@@ -543,28 +543,322 @@ if you want to make a 3D tensor:
     
     
     
-    
-    
-    
-    
-    
+
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 14 :  Framing a Machine Learning Problem
+                         
+
+1. "Business Problem to ML Problem": 
+
+eg., Netflix. me revenue ko increase karne ke liye ek upay ye nikale ki company ke churn rate ko ghatana hai. "Churn Rate" matlab no. of customers jo company chor kar ja rahe hai. us number ko ghatana hai. 
+wo churn rate present time me agar 4% hai. to usko ghata ke 3.75% me lana hai. 
+To ab aapka focus is par nahi hai ki aapko netflix ke revenue ko increase karna hai. ab aapka focus aur aapke poore team ka focus sirf is baat par hai. ki company ke churn rate ko 4% se ghata kar 3.75% me le ke aana hai. 
+Kabhi bhi aapko koi problem mile aapka first instinct as a Data Scientist should be ki mai us problem ko ek mathematical problem me kaise convert kar sakta hu. 
+is case me aap ye revenue increase karne ke problem ko ek mathemetical problem me is tarah se change karoge ki aap apne teammate ke paas jaate ke saath bol sakte ho ki "Hamare next 6 month ka target hai. churn rate ko 4% se ghata kar 3.75% tak le aana."
 
 
 
+2. "Type of Problem": 
+
+aap ye identify karne ki koshish karte ho ki aap kis type ka problem solve karne ki koshsish kar rahe ho. like - supervised or unsupervised, supervised hai to regression hai ya classification hai. etc. 
+aapko bigger picture assume karna hai. 
+e.g., aapko ab churn rate churn rate nahi karna hai. aapko ab dekhna hai. ki churn rate kis cheej se infuence ho raha hai. means you have to identify the costemers who are going to leave the platform. 
+then aap har chor kar jane wale bande ki probability nikaloge ki is bande ke platform chor kar jaane ki probability itni hai . aur iski itni hai. 
+to jis bande ki probability jitni high hai. usko utna discount de kar rokne ki koshish karni hai. 
+
+to ab kisko kitna discount dena hai. uska pata lagane ke liye hum Classification ke bajae ab Regression ko select karenge ki ye problem jo hai. ye ek Regression ka problem hai.
 
 
+
+3. "Current Solution":  
+
+is problem ke kuch existing solution pahle se hoga hi jiska use company me kiya jaata hai. kyuki ho sakta hai. pahle bhi koi team is problem me kaam ki hogi to aap ja ke us team se baat kar sakte hai. ki is problem ko solve karne ke liye aapne kya kiya tha? hum ye karne ki soch rahe hai. aapki kya rai hai iske baare me. jo solution hai usko aapne kya soch kar banay tha kin kin cheejo ko dhyan me rakhte hue is solution tak aae the aaplog. to agar wo solution helpful hai to usko pakad ke usi direction me kaam karna aasaan hota hai. aapk zero se start karne se bach jaate ho. 
+
+
+4. "Getting Data": 
+
+kaun banda platform chor kar jaega. isko predict karne ke liye kuch data gather karna padega costemer ka ki:
+
+    1. Watch time (kitna hai. bande ka)
+    2. Search but did not find (search kiya movie par nahi mila)
+    3. Content left in the middle (aadhi film dekh kar chor diya)
+    4. Clicked on Recommendations(Order of Recommendations)
+
+
+
+5. "Matrices to Measure": 
+
+AAp jo predict kar rahe the aap sahi the ki nahi isko pata karne ke liye aap ek matrice set karoge jisko measure kar ke insure ho sako ki aap jis direction me badh rahe ho wo sahi hai.     
+    
+    
+6. "Online Vs Batch": 
+
+ye select karna ki Online Learning karoge is problem ko solve karne ke liye ya Batch learning.  
+
+
+
+7. "Check Assumption": 
+
+Ye check karna ki aap jo facility assume kar ke chale ho ki aap iska use karoge, iska use karoge. jaise :
+    Search but not found
+    watch time 
+    etc etc. 
+    
+            Ye sb measure karne ka facility company me available hai. bhi ki nahi. in saari cheejo ko check kar ke ensure karna. aur confirm karna. 
+            ye bhi ensure karna ki ye factor globally applicable hai. ya sirf ek country me vary kar rahe hai. ya karenge. 
+            
+            
+            
+
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 16 :  Working with JSON/SQL
+
+
+JSON : Java Script On Notation. it is an universal file format means all programming languages support JSON file format. Thats why it is important.
+
+SQL: apne dataframe se directly agar pandas ke madad se import karte hai. to wo SQL format me hota hai. 
+
+
+PHP seekhna 
 
 
 
 
  
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 17 :  Fetching Data From an API
+                         
+                         
+Agar kisi website se data fetch karke lana hai to wo kaise karte hai. 
+
+
+"API": What is an API:
+    
+    API 2 softwares ko aapas me baat karata hai.
+    API data pipelines hote hai. jo information ko point A se point B tak pahuchate hai. 
+    
+    e.g., Agar hum 'makeMyTrip' se train ka ek seat book karte hai. to wo seat 'yatra.com' me bhi booked dikhai dega. kyuki ye sare website ek official website ka API use kar rahe hai. official ticket book karne wala website apne data base ke charo taraf ek code likh ke rakha hai. kuch function bana diye hai. agar us function ko correct input ke saath likh ke request bheja jae to us official website se palat ke ek jawab aaega jo JSON format me hoga. jo ye bataega. ki Seat khali hai, ya book ho chuka hai.
+    
+    Questions got resolved in this lecture: 
+    #API se data Fetch kaise karna hai.
+    #us JSON format ke data ka overview kaise dekhna hai.
+    #us JSON format ke data ko kaise ek DataFrame me convert karna hai. 
+    #data agar multiple pages me hai. to usko for loop laga ke kaise complete dataFrame ko apne notebook me lana hai. 
+    #us DataFrame ko kaise "csv" file me convert karna hai. 
+    #us CSV database ko kaise kaggle me upload karna hai.
+    #apne kaggle profile ko kaise boost kare uske liye rapid Api ke baare me bataya gaya hai.
+    #
+    
+    
+                         
+            -----------------------------------------------------------------------------------------------------------------
+
+                         Day 18 :  Fetching data using Web Scraping          
+                        
+Web API se data fetch na kar sake to Web Scraping ka madad lena padta hai.
 
 
 
+    # request bhejne par 200 nahi aaya to kya kare.
+    # 4 cheeje ek hi class me hai to unko alag alag kaise print kare.
+    # data jo milega usko dataframe me kaise badle. jaisa kaggle me dikhai deta hia.
+    
 
 
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 19 :  Understanding Your Data
 
 
+    1. "Asking Basic Questions": What are the basic questions you should ask after getting your data.
+            full document on github "day 19 document".
+            
+            head ke jagah me sample likhe hai taki 5 random data show ho.
+            
+            df. describe() se jo insite milenge wo kewal numerical data ke bare me janne ke liye valuable hai. 
+            
+            Correlation : Correlation ka matlab hota hai. ek cheej ke badhne ya ghatne se kisi doosre cheej par kya asar padta hai. 
+         
+            saare column useful nahi hote hai. jo column useful nahi hota hai. usko identify kar ke column ko hatana ek bahut jaroori process hota hai.
+            
+            is step me yahi karte hai. kaun sa input column. output column par asar nahi daal raha hai. aur agar daal raha hai to kitna daal raha hai. 
+            kya wo directly proportional hai ya inversly proportional hai. 
+            
+            e.g., Titanic dataset me "Survived" ka "Fare" ke saath ek positive corrilation dikhata hi. "Fare" ke badhne se "Survival" ka chance badh raha hai. 
+            
+            ab "Pclass" ek storng negative corrilation dikha raha hai. "Survived" ke saath. class 1 sabse jyada survive kiye. aur '3rd' class ke log sabse kam survive kiye. to "Pclass" ke badhne se "survival" ka chance kam ho raha hai.
+            
+            passenger id me bahut kam value aaya hai to uska koi use nahi hai. us column ko hata dena hi behtar hai.
+    
+    
+    
+-----------------------------------------------------------------------------------------------------------------
+
+                         Day 20 :  EDA using Univariate Analysis
+                         
+
+1 column ka analysis karna. matlab har column ke oopar independent analysis ko univariate analysis kahte hai. 
+
+1. humko categorical data wale column me apna analysis perform karna hoga. to Sabse pahle ye pata karna hai. ki koun se column me categorical data hai. jaise : class, "survived" etc.
+ aur kaun se column me numerical data hai. ya kaun se categorical data wale column hai. ya kaun sa categorical to hai par hamare kaam ka nahi hai. jaise : "name" wala column. 
+ 
+ 
+ 
+ 
+-----------------------------------------------------------------------------------------------------------------
+
+                                 Day 22 :  Pandas Profiling   
+             
+EDA using Univariate Analysis aur bivariate ya multivariate analysis wale sare analysis sirf ek peice of code se ho sakta hai. Library is called Pandas Profiling.
+
+Average record size in memory : har ek row kitna size le raha hai memory me.
+
+Name variable has high cardanility: Name variable categorical data hai. jisme category bahut jyada hai.
+
+Yaha par 
+"Variables" Tab               = "Univariate Analysis"
+"Interactions" and "corrilations " = "Bivariate Analysis"
+
+"count" bateaga ki har column me kitni missing values hai.
+
+"koi bhi ek dataset uthao aur is tool ko run kar do. aur phir jo output report aa raha hai usko padhne ka try karo. aur padhne ke saath saath us observation ko note kar sakte ho. Ye kaam 3 se 4 datasets ke saath karte karte eventually You will become comfirtable with this tool and than you can use this tool in a powerfull way. " 
+
+    
+    
+-----------------------------------------------------------------------------------------------------------------
+
+                             Day 23 :  What is Feature Engineering 
+    
+#Aage ke 8 se 10 video me yahi saare topic ko ek ek kar ke padhaya jaega.
+
+Feature engineering is the process of using domain knowledge to extract features (characteristics, properties, attributes) from raw data. These features can be used to improve the machine learning algorithms.
+
+
+Feature Engineering Types: 
+
+    Feature Transformation 
+    
+    Feature Construction
+
+    Feature Selection
+
+    Feature Extraction
+    
+    
+    1. "Feature Transformation : 
+    koi input column ko transform karna taki aur behtar result de.
+    
+        i) Missing Value imputation: Missing value ek bada problem hai. kyuki Scikit Learn missing value accept nahi karti hai while training a model. so before either you have to remove them or you have to fill them.
+        
+        ii) Handeling Categorical Values: Categorical value jo ki String hai. to un String variable ko numerical value me convert kar dena via onehot incoding or some other techniques. 
+        
+        iii) Outlier Detection: There are certain algorithms jo bahut jyada impact hote hai. outliers ke karan. to pahle un outliers ko detect kar ke romeve karna.
+        
+        iv) Feature Scaling: koi input variable me data 100 ke under hai. aur kisi me "Lakh" se oopar hai. to apne algorithm ko data dene se pahle features ko Scale kar dete ho. aur ek range me le aate ho jo jenrally -1 se 1 ke beech me hota hai.
+
+
+    2. "Feature Construction: 
+    Data me koi feature exist nahi karte. unko manually construct karna. taki aur behtar result aae. jaise Tatanic dataset me : 'Parent Child' aur 'SiblingSpouse' ko add kar ke ek naya column construct kar diye. 'Family' naam se aur usme in dono ke number ko add kar ke ek kuch aur category bana diye jaise: 'Alone, small family, large family' etc. 
+   
+
+    3. "Feature Selection: 
+    Saare ke saare feature. saare ke saare column ko algorithm ko nahi de rahe ho kuch ko hata le rahe ho. jo utne jaroori nahi hai.
+    jaise 'Mnist' dataset me handwritten numbers ke picture ko detect karne ke liye. sirf centre ke area me focus karna. periferal ke portion ko consider hi nahi karna. taki algorithm ko bahut jyada kaam na karna pade . kewal jaroori kaam par hi focus kare.
+
+    4. "Feature Extraction:
+    Given feature me se completely nae feature ko extract karna but programmetically not manualy via using some algorithm.
+    
+    aapke paas jo given input hai. unke badle aap complete nae features create karte ho. jaise aapke paas 5 feature the. to aap 5 aur nae feature create karte ho. aur un 5 nae feature me se kewal 2 sabse important feature ko use karte ho. aur baaki 3 ko hata dete ho.
+   algorithms like PCA, LDA. 
+    
+    
+-----------------------------------------------------------------------------------------------------------------
+
+                           Day 23 :  Feature Scaling   
+    
+Feature Scaling is the last thing you will do in Feature ingineering part. Machine learning Algorithm ko apna data dene se just pahle aap Feature Scaling karte ho.
+
+It is one of the easiest step in Feature ingineering.
+
+what is Feature Scaling: 
+Feature Scaling is a technique to standardize the independent features present in the data in a fixed range. 
+    
+    eg., iq agar 100 ke range me hai. aur CGPA 10 ke range me hai. to Feature scaling ke baad ye same range me aa jate hai.
+    "kyuki agar independent variable ka scaling ache se nahi hoga to Machine Learning algorithm ka Logic is tarah se created hai. ki wo ache se perform nahi kar paenge."
+    
+    Types of Feature Scaling: 
+    
+    1. Standardization
+    2. Normalization
+    
+    
+    
+    1. Standardization: 
+    Also called Z-score Normalization. formula : "X – μ / σ"
+    Where:  X: the observation (a specific value that you are calculating the z-score for).
+            Mu(μ): the mean.
+            Sigma(σ): the standard deviation (Data ka spread)
+            
+       Characteristic: 
+        Ye sab karne ke baad jo nae value aaeng unke series ka:
+            mean (μ) = 0 hoga.
+        aur Stardard deviation (σ)(data ka spread) = 1 hoga.
+        
+        Standardization me sirf 2 hi cheeje hoti hai: 
+        
+            1. Mean centering
+            2. Scaling by the factor of Stardard deviation which is 1.
+            
+            
+            
+            Feature Scaling se pahle (before Normalization or Standardization) : 
+            
+            1. Train test split kar lena chahiye.(recommended)
+
+    Standardization: 
+    
+    """from sklearn.preprocessing import StandardScaler
+    scaler = StandardScaler()""" Sklearn ka ye cheej khud se formula apply kar ke standardize kar degi.
+    
+    Kaggle me "Learn_Standardization" naam se ek Notebook bana hua hai. usme ye sb show kiya gaya hai.
+    
+    
+    
+-----------------------------------------------------------------------------------------------------------------
+
+                           Day 24 :  Feature Scaling - Normalization | MinMaxScaling | MaxAbsScaling | RobustScaling   
+                           
+   
+   Normalization is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to use a common scale, without distorting differences in the ranges of values or losing information.                        
+    
+    "Units ko eliminate kiya jae, so, that Magnitude ko common scale me laya ja sake."
+    
+    
+    1. MinMax Scaling : The min-max normalizer linearly rescales every feature to the [0,1] interval.
+
+Rescaling to the [0,1] interval is done by shifting the values of each feature so that the minimal value is 0, and then dividing by the new maximal value (which is the difference between the original maximal and minimal values).
+
+The values in the column are transformed using the following formula:
+
+normalization using the min-max function
+    
+    
+    3. Robust Scaling: 
+    
+    When to use Standardization and when to use normalization. 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 

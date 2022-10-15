@@ -933,7 +933,7 @@ Alternative Hypothesis (H1): The average is less than 95%.
 
 
 
-from StatQuest: """""""""""We can create a hypothesis and if data gives us strong evidence that the hypothesis is wrong then we can "reject the hypothesis" but when we have data that is similar to the hypothesis but not exactly the same then the best we can do is "fail to reject the hypothesis"."""""""""""""
+from StatQuest: """""""""""We can create a hypothesis and if data gives us strong evidence that the hypothesis is wrong then we can "reject the hypothesis" but when we have data that is similar to the hypothesis but not exactly the same then the best we can do is "fail to reject the hypothesis"."""
 
 
 The hypothesis that there is no difference between things is called the "null hypothesis".

@@ -428,6 +428,66 @@ i also made into several good startups that paid me very well through this AUSI 
 
 
 
+----------------------------------------------------------------------------------------------------------------
+
+                        How to Introduce Yourself in an Interview
+
+
+Introduce Yourself:
+
+We ye chceej poochte hai. taki wo dekh sake aap is position ke liye right fit hai. ya nahi. aap ne apne resume me kuch fake to nahi kara. 
+
+Hame apne chahre par smile rakhna hai. aur eyeblow ka bhi expression sahi rakhna hai.
+
+1. Sabse pahle interviewr ko greet karna hai. : Good Morning, Good Afternoon, ya Good Evening. 
+
+2. Gratification show karna opportunity dene ke liye: Thankyou for giving me this opportunity. aur ye politely bolna hai.
+
+3. Apna naam batana hai.: Naam ke politely batana hai. par apne naam ko value karte hue bolna hai. arrogant nahi lagna chahiye aur na hi apne naam ko halke me le ke bolna hai.
+
+4. uske baad apna background bata sakte ho. ki kaun se college se padha hai. agar institute acha nahi hai. to sirf ye batana hai. ki I have done my B.tech. and i got this much opportunity. agar percentage kam hai. to wo bhi skip kar dena hai. koi bhi negative impression nahi padna chahiye. 
+Apne juban se sirf positive cheeje nikalna hai. 
+
+5. Uske baad apne present time ke bare me batana hai. ki "corrently i am persuing my masters from IIT guahati in computer science and ingeneering". 
+words ko simple rakhna hai bahut complex nahi banana hai. nahi to samne baitha aadmi bhi nahi samajh paega.
+
+6. ab aap apna achivements dikha sakte hai. agar aapne internship wagairah kari hai to wo bhi menstion kar sakte hai. internship ke baare me batate samay ye bhi batana hai. ki waha se seekha kya hai. e.g., "I have done my internship from XYZ company. and done full stack Data science on that company. and i have learnt technologies like pytorch, scala and perl on that company and also brush up my skill of python and machine learning because we have done so many projects their related to this domain." 
+kyuki company ko isse koi matlab nahi hai ki aapne internship kaha se kiya hai. uske liye important ye hai. ki apne waha se seekha kya hai. 
+
+7. uske baat aapko batana hai. aap kis type ke personality hai. strong point aur week point ke term me nahi batana hai. kyuki aapne strong points ko batane ke baad agar agar aap apne week point nahi bhi bataenge to wo aapke week point ke baare me poochenge hi aur aap phans jaenge. 
+aap bata sakte hai. mai "versetile" hu main "easy going" hun. mai "self deciplined hu" ye sirf bolna nahi hai isko show bhi karna hai. ya is point ko kaise bhi kar ke prove kar dena hai. 
+
+8. Show them that you are a team player. ya prove them that you are a team player. like " in real life I am a easy going person and i would like to work in a team because it helps me look at the same thing in a new way." 
+yaha par hum bata diye ki humko team me kaam karna pasand hai. kyu team me kaam karna pasand hai ye bhi bata diya. 
+
+9. Hobby dal rahe hai. to aapka wo hobby company ke liye kyu benificial hai ye bhi batana hai indirectly. jaise "I like to invest in crypto and stock market and it helped me to keep calm and compose under any situatiion."
+"I like to play football. it helps me to coordinate with my team."
+
+10. ab apne intro ko khatam kar dena hai. "Thats all from me, ThankYou". to is tarah se 1 minute ke andar andar nipta dena hai. bol ke. Never sound arrogant.
+
+
+English is Must: 
+
+    1. Reading
+    2. Listening
+    3. Speaking 
+    4. Writing 
+
+
+
+
+1. Reading: Reading ke liye books padhna ya blog padhna shuru karna hai. like "How to win friends and influence people". etc. 
+
+2. Listening: Youtube video english me. Grammer sudharne ke liye tutorial. watching "interviews", "cambly videos", "omegle vidoes of nimish kapoor", "learn english through movies".
+
+
+4. Writing: Writing ke liye Quora me ja ke Answer likhna hai. koi bhi question utha ke jo samajh me aa raha hai. ya "apna blog likh sakte ho Data Science ke har topic ko explain karne ke liye" isse "Resume" bhi build hoga. english ko improve hone me 3, 4, ya 5 mahine lagenge.
+
+5. Speaking: iske liye koi bhi app use karna hai jisme aap forigner se baat kar paa  rahe ho ya. aap kisi se bhi baat kar paa rahe ho jo aapse english me baat karne me iterested hai. jaise "Omegle".
+
+
+
+
 
 
 

@@ -1,0 +1,210 @@
+Addition and multiplication of Integers:
+
+        int x= 10;
+        int y= 15;
+        int sum = x + y;
+        System.out.println("sum of "+ x + " and sum of " + y + " is = " + sum);
+        // xy
+        int prd = x * y;
+        System.out.println("product of "+ x + " and sum of " + y + " is = " + prd);
+
+
+>>>> 
+sum of 10 and sum of 15 is = 25
+product of 10 and sum of 15 is = 150
+
+
+
+#Machine Rule is not BODMAS:
+Machine Rule is LEFT TO RIGHT + BODMAS:
+
+        //exp
+        int exp = x * y / x + y;
+        System.out.println(exp);
+        //correct way of doing exp
+        int expr = (x * y) / (x + y);
+        System.out.println(expr);
+
+>>>
+30
+6
+
+##So, if you want answer in a perticular way you should place BRACKET.
+
+
+
+IF and ELSE:
+
+    int x = 11;
+    if (x % 2 == 0)
+    {
+        System.out.println(x +" is Even");
+    }
+    else
+    {
+        System.out.println(x +" is odd.");
+    }
+    
+    System.out.println("Harwork and Hardwork");
+
+
+>>>
+11 is odd.
+Harwork and Hardwork
+
+
+## if me bhi semi colon nahi lagega aur else me bhi semi colon nahi lagega.
+
+
+###check MAX and MIN  with IF and ELSE;
+
+    int x = 10;
+    int y = 2;
+    
+    if (x == y)
+    {
+        System.out.println(x + " is equal to "+ y);
+    }
+    else
+    {
+        if(x > y)
+        {
+            System.out.println(x +" is greater than " + y);
+        }
+        else
+        {
+            System.out.println(y +" is greater than " + x);
+        }
+    }
+    
+>>>>>
+10 is greater than 2
+
+
+
+
+###check MAX and MIN  with else if;
+
+
+
+    int x = 10;
+    int y = 12;
+    
+    if (x == y)
+    {
+        System.out.println(x + " is equal to "+ y);
+    }
+    else if (x > y)
+    {
+        System.out.println(x +" is greater than " + y);
+    }
+    
+    else
+    {
+        System.out.println(y +" is greater than " + x);
+    }
+   
+
+>>>>
+12 is greater than 10
+
+
+###Marks Grading System:
+
+    if(marks > 90)
+    {
+        System.out.println("excellent");
+    }
+    else if(marks > 80 && marks <= 90)
+    {
+        System.out.println("good");
+    }
+    else if(marks > 70 && marks <= 80)
+    {
+        System.out.println("fair");
+    }
+    else if(marks > 60 && marks <= 70)
+  {
+      System.out.println("meets expectations");
+  }
+  else
+  {
+      System.out.println("below par");
+  }
+
+
+
+
+###While Loop:
+
+3 steps will always present in a While loop:
+
+    1. Initialization.
+    2. Evaluataion.
+    3. Increment.
+
+
+  	    int i=1;
+		while(i<=10)	
+		{
+			System.out.println(i);
+			i++;
+		}
+		System.out.println("Done");
+
+
+
+
+###For Loop:
+
+    for(int i = 1; i <= 10; i++)
+    {
+      System.out.println(i);
+    }
+
+for loop take 3 steps in only and only in following order:
+
+    1. Check
+    2. body
+    3. Increment.
+
+
+
+Taking Input:
+
+
+Integer:
+
+
+      Scanner scn=new Scanner(System.in);
+      int n= scn.nextInt();  
+      for(int i = 1; i <= n; i++)
+      {
+        System.out.println(i);
+      }
+
+
+String:
+
+      Scanner scn=new Scanner(System.in);
+      String name= scn.nextLine();  
+      
+      System.out.println("Hello " + name + "!");
+
+
+##For both Integer and String input in a single program:
+
+      Scanner scn=new Scanner(System.in);
+      int n = Integer.parseInt(scn.nextLine());
+      String name= scn.nextLine();  
+      
+      System.out.println("Hello " + name + "! Here is your counting.");
+      for (int i = 1; i <= n; i++)
+      {
+        System.out.println(i);
+      }
+
+
+Prime Numbers: Wo number jo khud se aur 1 se divide hote hai. jaise 7, 11, 17
+
+
