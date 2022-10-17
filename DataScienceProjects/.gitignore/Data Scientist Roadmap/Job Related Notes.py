@@ -437,7 +437,7 @@ Introduce Yourself:
 
 We ye chceej poochte hai. taki wo dekh sake aap is position ke liye right fit hai. ya nahi. aap ne apne resume me kuch fake to nahi kara. 
 
-Hame apne chahre par smile rakhna hai. aur eyeblow ka bhi expression sahi rakhna hai.
+Hame apne chahre par smile rakhna hai. aur eyebrow ka bhi expression sahi rakhna hai.
 
 1. Sabse pahle interviewr ko greet karna hai. : Good Morning, Good Afternoon, ya Good Evening. 
 
@@ -487,7 +487,7 @@ English is Must:
 
 
 
-
+Interview: 
 
 
 
