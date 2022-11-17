@@ -55,11 +55,11 @@ e.g., Google photo ek app hai jisme ye har photo ko alag alag catogary me divide
 
 
 4. 'Reinforcement ML': 
-Supervised learning ka fanda ye tha ki Input aur output dono hona chahiye. 
-Unsupervised ka fanda ye tha ki aap sirf input dete ho.
-Reinforcement ka fanda ye hai. ki yaha par aap data dete hi nahi ho. aapke system ke paas koi data hota hi nahi hai. aapka algorithm ekdam scratch se seekhna start karta hai. aur phir dheere dheere improve karta jata hai. kaam karta hai ho gaya to thik usse bhi seekhta hai. ya agar galti hota hai to usse bhi seekhta hai.
-galti karne se usko punishment milta hai. jaise uska marks kat say -50. 
-aur kaam ko sahi karne se usko reward milta hai. say +50. 
+    Supervised learning: ka fanda ye tha ki Input aur output dono hona chahiye. 
+    Unsupervised: ka fanda ye tha ki aap sirf input dete ho.
+    "Reinforcement": ka fanda ye hai. ki yaha par aap data dete hi nahi ho. aapke system ke paas koi data hota hi nahi hai. aapka algorithm ekdam scratch se seekhna start karta hai. aur phir dheere dheere improve karta jata hai. kaam karta hai ho gaya to thik usse bhi seekhta hai. ya agar galti hota hai to usse bhi seekhta hai.
+    galti karne se usko punishment milta hai. jaise uska marks kat say -50. 
+    aur kaam ko sahi karne se usko reward milta hai. say +50. 
 
 galti karta hai. to wo apne system ko khud hi se update karta hai. ki ye kaam ab dubaara nahi karna hai. 
 Sahi karta hai. to apne system ko update karta hai. ki aise situation me isi kaam ko karna hai. yahi option ko choose karna hai.
@@ -76,7 +76,11 @@ Based on How the machine learning model train actually. specially on production.
 
 Now, 
 
-Production: What is production. Production is basically the server. where your code is going to run. and the environment of server where your code is running, is called Production environment. And the machine where you are doing your coding. is called development environment. 
+Production: What is production. Production is basically the server. where your code is going to run. 
+
+Production environment: and the environment of server where your code is running, is called Production environment. 
+
+development environment: And the machine where you are doing your coding. is called development environment. 
 
 
 Two Types: 
@@ -115,7 +119,7 @@ Disadvantage:
 company promotions lines like: The performence of our products will increase as you use our product. The more you use it the more its performence increases.
 Then the company is using online Learning on their product. 
 
-Online learning quit unlike batch learning is incremental. You feed your model data in small - small batches, sequentially. These batches are called mini batch. After every training your model improve.
+Online learning quite unlike batch learning is incremental. You feed your model data in small - small batches, sequentially. These batches are called mini batch. After every training your model improve.
 This is called online Learning because your model is getting train on server or on production or when you are online. 
 
 You start with few data. and feed it to your machine. and send that on server. and on server you are continuously getting new data.
@@ -704,7 +708,6 @@ Web API se data fetch na kar sake to Web Scraping ka madad lena padta hai.
 
 1. humko categorical data wale column me apna analysis perform karna hoga. to Sabse pahle ye pata karna hai. ki koun se column me categorical data hai. jaise : class, "survived" etc.
  aur kaun se column me numerical data hai. ya kaun se categorical data wale column hai. ya kaun sa categorical to hai par hamare kaam ka nahi hai. jaise : "name" wala column. 
- 
  
  
  

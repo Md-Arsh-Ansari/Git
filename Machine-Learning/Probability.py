@@ -223,3 +223,156 @@ So this referral technique goes on, increasing the size of population like a sno
 For example: It’s used in situations of highly sensitive topics like HIV Aids where people will not openly discuss and participate in surveys to share information about HIV Aids.
 Not all the victims will respond to the questions asked so researchers can contact people they know or volunteers to get in touch with the victims and collect information
 Helps in situations where we do not have the access to sufficient people with the characteristics we are seeking. It starts with finding people to study.
+
+
+
+
+
+
+
+
+
+5 Nov 2022:
+                                Conditional Probability
+
+Conditional probability refers to the chances that some outcome occurs given that another event has also occurred.
+It is often stated as the probability of B given A and is written as P(B|A), where the probability of B depends on that of A happening.
+
+
+Conditional probability is known as the possibility of an event or outcome happening, based on the existence of a previous event or outcome. 
+
+The probability of occurrence of any event A when another event B in relation to A has already occurred is known as conditional probability. It is depicted by P(A|B).
+
+Conditional Probability Formula
+P(B|A) = P(A and B) / P(A)
+Or:
+
+P(B|A) = P(A∩B) / P(A)
+Where
+P = Probability
+A = Event A
+B = Event B
+
+
+
+
+                            Independent Events in Probability   
+                                    "Not Related"
+
+
+Independent events are those events whose occurrence is not dependent on any other event. For example, if we flip a coin in the air and get the outcome as Head, then again if we flip the coin but this time we get the outcome as Tail. In both cases, the occurrence of both events is independent of each other. 
+
+
+ P(A and B) = P(A)×P(B)P(A and B) = P(A)×P(B)
+
+ P(B and A)=P(A)×P(B after A)
+
+
+
+Although typically we expect the conditional probability  P(A∣B)  to be different from the probability  P(A)  of  A , it does not have to be different from  P(A) . When  P(A∣B)=P(A) , the occurrence of  B  has no effect on the likelihood of  A . Whether or not the event A has occurred is independent of the event  B.
+
+Using algebra it can be shown that the equality  P(A∣B)=P(A)  holds if and only if the equality  P(A∩B)=P(A)⋅P(B)  holds, which in turn is true if and only if  P(B∣A)=P(B) . This is the basis for the following definition.
+
+Events  A  and  B  are independent (i.e., events whose probability of occurring together is the product of their individual probabilities). if
+
+P(A∩B)=P(A)⋅P(B)
+If  A  and  B  are not independent then they are dependent.
+
+
+
+                               Mutually Exclusive Events
+                                "Cannot occur Together"
+
+Mutually exclusive events are those events that do not occur at the same time. For example, when a coin is tossed then the result will be either head or tail, but we cannot get both the results. Such events are also called disjoint events since they do not happen simultaneously.
+
+In probability theory, two events are said to be mutually exclusive if they cannot occur at the same time or simultaneously. In other words, mutually exclusive events are called disjoint events. If two events are considered disjoint events, then the probability of both events occurring at the same time will be zero.
+
+If A and B are the two events, then the probability of disjoint of event A and B is written by:
+
+Probability of Disjoint (or) Mutually Exclusive Event = P ( A and B) = 0
+
+
+
+
+
+
+
+                                    Bayes’ theorem
+
+
+Bayes’ theorem describes the probability of occurrence of an event related to any condition. It is also considered for the case of conditional probability. Bayes theorem is also known as the formula for the probability of “causes”.
+
+What is Bayes Theorem?
+Bayes theorem, in simple words, determines the conditional probability of an event A given that event B has already occurred. Bayes theorem is also known as the Bayes Rule or Bayes Law. It is a method to determine the probability of an event based on the occurrences of prior events. It is used to calculate conditional probability.
+
+
+
+
+Here, P(A) = how likely A happens(Prior knowledge)- The probability of a hypothesis is true before any evidence is present.
+
+P(B) = how likely B happens(Marginalization)- The probability of observing the evidence.
+
+P(A/B) = how likely A happens given that B has happened(Posterior)-The probability of a hypothesis is true given the evidence.
+
+P(B/A) = how likely B happens given that A has happened(Likelihood)- The probability of seeing the evidence if the hypothesis is true.
+
+
+
+                                 Intution
+
+
+
+Mathematics behind Naive Bayes Algorithm:
+                    
+To complete this card Watch video from the Playlist https://www.youtube.com/playlist?list=PLKnIA16_RmvZ67wQaHoBuzXaDAfPz-a6l
+                 #YouTube Video of Playlist  Naive Bayes:
+     Naive Bayes Classifier | Part 7 | Mathematics behind Naive Bayes Algorithm
+
+
+
+
+
+Simple Example Code
+                            
+    To complete this card Watch video from the Playlist https://www.youtube.com/playlist?list=PLKnIA16_RmvZ67wQaHoBuzXaDAfPz-a6l
+
+    and then practice it on Notebook as shown on the video. or you can also use other kaggler notebook on this topic
+                          
+                         
+                          
+                          Naive Bayes | Handling Numerical Data  
+                          
+Binomial Naive Bayes 
+Multinomial Naive Bayes 
+Posion Naive Bayes                       
+               
+    To complete this card Watch video from the Playlist https://www.youtube.com/playlist?list=PLKnIA16_RmvZ67wQaHoBuzXaDAfPz-a6l
+
+    and then practice it on Notebook as shown on the video. or you can also use other kaggler notebook on this topic                 
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+

@@ -9736,4 +9736,565 @@ Capacity: How many elements. an array could store. maximum limit or capacity of 
 Maximum capacity of an array is : 10 to the power 7.
 
 
+----------------------------------------------------------------------------------------------------------------
+                                       Seaborn
+
+# Rating palette = "autumn", "plasma_r", "rainbow_r", "winter_r"
+# Distinct palette = "hue_colors", 
+# sns.set_style("whitegrid")
+# sns.set_theme() 
+
+
+"https://seaborn.pydata.org/generated/seaborn.histplot.html"
+    #draw multiple histograms from a long-form dataset with hue mapping: important for multivariate analysis:
+    sns.histplot(data=penguins, x="length", hue="species")
+
+    #multiple distributions is to “layer” them, but you can also “stack” them:
+    sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
+
+    # transparent histogram which is best for kde
+    sns.histplot(penguins, x="flipper_length_mm", kde=True, element="step")
     
+    
+    
+    
+    Relational Plots
+Relational Plots are used to perform multivariate analysis
+
+Scatter Plots
+    Line Plots (Specifically used for time series data)
+    FacetGrids (Plotting multiple graphs side by side)
+    
+1. Scatterplot:
+There are 2 ways to draw a scatterplot in seaborn:
+
+Relplot (Figure level function)
+Scatterplot (Axes Level Function)
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+plt.style.use('fivethirtyeight')
+data = pd.read_csv('/home/arsh/tips.csv')
+data.head()
+Scatter plot between total_bill and tip
+sns.relplot(x= 'total_bill', y = 'tip', data = data) 
+plt.show()
+Hue parameter
+You provide categorical data on 'hue' parameter.
+
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker' )
+plt.show()
+Style parameter
+You provide categorical data for 'style' parameter also
+
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex')
+plt.show()
+Size parameter
+You provide numerical or continuous data for size parameter
+
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex', size = 'size')
+plt.show()
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex', size = 'size', sizes = (10, 200))
+plt.show()
+Using Scatterplot function
+sns.scatterplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex', size = 'size', sizes = (10, 200))
+plt.show()
+# just using sex in both 'hue' and 'style'.
+sns.scatterplot(data = data, x= 'total_bill', y = 'tip',hue = 'sex', style = 'sex')
+plt.show()
+Using lmplot function
+Lmplot could add Line into your plot
+
+sns.lmplot(data = data, x= 'total_bill', y = 'tip',hue = 'sex')
+plt.show()
+Distinct features of Relplot:
+Col parameter
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', col = 'sex', size = 'size', sizes = (10, 200))
+plt.show()
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex', col = 'size', size = 'size', sizes = (40, 200))
+plt.show()
+col_wrap
+it will decide how many figure you want in one row.
+
+sns.relplot(data = data, x= 'total_bill', y = 'tip',hue = 'smoker', style = 'sex', col = 'size', col_wrap = 3, size = 'size', sizes = (80,300))
+plt.show()
+Plotting with Categorical Data
+Catplot [Figure Level Function]
+A. Categorical Scatterplots
+Stripplot
+Swarmplot
+B. Categorical distribution plots
+Boxplot
+Violinplot
+C. Categorical estimate plots
+Pointplot
+Barplot
+Countplot
+D. Categorical Categorical plots
+Heatmaps
+Clustermaps
+E. Plotting side by side graphs using FacetGrids
+1. Categorical Scatterplots
+Important
+
+x-axis -----> Categorical Data
+y-axis -----> Numerical Data
+sns.catplot(data = data, x = 'day', y = 'tip')
+plt.show()
+# Jitter = 0 means overlapping = 0
+sns.catplot(data = data, x = 'day', y = 'tip', jitter = 0)
+plt.show()
+# kind = 'swarm' show us distribution of the data.
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'swarm')
+plt.show()
+# Adding hue parameter
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'swarm', hue = 'sex')
+plt.show()
+# could also use swarmplot function
+sns.swarmplot(data = data, x = 'day', y = 'tip', hue = 'sex')
+plt.show()
+Boxplot
+Univariate Analysis
+sns.boxplot(x = data['tip'])
+plt.show()
+sns.boxplot(x = data['total_bill'])
+plt.show()
+Multivariate Analysis
+Boxplot for 1 categorical data and 1 numerical data
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'box')
+plt.show()
+# Boxplot with hue
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'box', hue = 'sex')
+plt.show()
+Violin Plots
+Violin plots are a method of plotting numeric data and can be considered a combination of the box plot with a kernel density plot.
+
+Image of box
+
+
+
+sns.violinplot(x = data['total_bill'])
+plt.show()
+sns.violinplot(x = data['tip'])
+plt.show()
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'violin')
+plt.show()
+# Violinplot with hue
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'violin', hue = 'sex')
+plt.show()
+# this is taking too much space.
+# Split = True
+# Violinplot with hue
+sns.catplot(data = data, x = 'day', y = 'tip', kind= 'violin', hue = 'sex', split = True)
+plt.show()
+Barplot and CountPlot
+Instead of giving the distribution of the data. The barplot and countplot give us the central tenency.
+
+# Lets find out the mean value for smoker and nonsmokers. 
+# so, we want a information of a numerical data with respect to a categorical data.
+sns.catplot(data = data, x = 'smoker', y = 'total_bill', kind= 'bar')
+plt.show()
+# so average total bill of a smoker is little higher than a average non smoker bill.
+sns.catplot(data = data, x = 'smoker', y = 'total_bill', kind= 'bar', hue = 'sex')
+plt.show()
+At default this barplot will show you graph with respect to mean.
+
+# Lets find plot with respect to median:
+# tweaking "estimator".
+​
+sns.catplot(data = data, x = 'smoker', y = 'total_bill', kind= 'bar', hue = 'sex', estimator= np.median)
+plt.show()
+​
+# with respect to varience:
+sns.catplot(data = data, x = 'smoker', y = 'total_bill', kind= 'bar', hue = 'sex', estimator= np.var)
+plt.show()
+# with respect to standerd deviation:
+sns.catplot(data = data, x = 'smoker', y = 'total_bill', kind= 'bar', hue = 'sex', estimator= np.std)
+plt.show()
+Countplot
+it works only on just a categorical data. it does'nt need any numerical data. because it counts categorical variable on y-axis.
+
+sns.catplot(data = data, x = 'smoker', kind= 'count')
+plt.show()
+# with hue
+sns.catplot(data = data, x = 'smoker', kind= 'count', hue = 'sex')
+plt.show()
+Heatmap
+flights = pd.read_csv('/home/arsh/flights.csv')
+flights.head()
+Creating Pivot Table
+x = flights.pivot_table(index= 'year', columns= 'month', values= 'passengers', aggfunc= 'sum')
+x
+sns.heatmap(x)
+plt.show()
+# linewidths = To seperate boxes line
+# annot = To write values of their respective box
+sns.heatmap(x, linewidths= 0.5, annot= True, fmt= 'd')
+plt.show()
+Clustermap
+It is a heatmap but it is clustered means it cluster row and columns together on the basis of similarity.
+
+So, similar rows will come together and similar columns will come together.
+
+sns.clustermap(x)
+plt.show()
+Jointplot
+jointplot are used to do bivariate analysis. on top of numerical figure.
+
+We can use Jointplots in the following 4 manners:
+
+Scatterplots
+Hexbin Plots
+KdePlots
+RegPlot
+# Scatterplots
+sns.jointplot(data= data, x= 'total_bill', y= 'tip')
+plt.show()
+with hue
+sns.jointplot(data= data, x= 'total_bill', y= 'tip', hue = 'smoker')
+plt.show()
+sns.jointplot(data= data, x= 'total_bill', y= 'tip')
+plt.show()
+Hexplot
+Hexplot is basically a 2D histogram.
+
+sns.jointplot(data= data, x= 'total_bill', y= 'tip', kind= 'hex')
+plt.show()
+Kde plot
+sns.jointplot(data= data, x= 'total_bill', y= 'tip', kind= 'kde')
+plt.show()
+# fill = True
+sns.jointplot(data= data, x= 'total_bill', y= 'tip', kind= 'kde', fill=True, space=0)
+plt.show()
+Above graph is a 2D PDA. means probability density function. assume that spread pond like thing in 3d Mountain. darker shed region is the tip and peak of the mountin and assume it as it is coming towards you.
+
+Regplot
+it gives us the best fit line along with scatterplot and histogram
+
+sns.jointplot(data= data, x= 'total_bill', y= 'tip', kind= 'reg')
+plt.show()
+Pairplot
+iris = pd.read_csv('/home/arsh/iris.csv')
+iris.head()
+sns.pairplot(iris)
+plt.show()
+sns.pairplot(iris, hue = 'Species')
+plt.show()
+Distplot
+Distplot are used to do univariate analysis on a continous/numerical data.
+
+Distplot combines 3 things in one graph:
+
+Histogram
+Kernel Density Enstimation (PDF)
+Rugplot
+titanic = pd.read_csv('/home/arsh/Titanic.csv')
+tc = pd.read_csv('/home/arsh/train.csv')
+titanic.head()
+titanic['age'].fillna(titanic['age'].mean(), inplace = True)
+sns.distplot(x = titanic['age'])
+plt.show()
+sns.displot(x = titanic['age'], kde = True, element = 'step')
+plt.show()
+sns.histplot(x = titanic['age'], kde = True, element = 'step')
+plt.show()
+Histogram
+sns.histplot(x = titanic['age']) # could also increase or decrease the bins
+plt.show()
+Plotting only the KDE
+sns.kdeplot(x = titanic['age'])
+plt.show()
+Rugplot
+Rug plot is basically a histogram.
+
+A rug plot is a plot of data for a single quantitative variable. It is used to visualise the distribution of the data.
+
+sns.rugplot(x = titanic['age'])
+plt.show()
+Let's find out which age group was died and survived so much
+
+sns.distplot(x = titanic[titanic['survived']==1]['age'],  kde = True)
+sns.distplot(x = titanic[titanic['survived']==0]['age'],  kde = True)
+plt.show()
+​
+
+
+How to increase/reduce the fontsize of X and Y tick labels
+tick = plt.xticks(fontsize = 15)
+
+
+How to rename the x label or y label 
+    b = sns.boxplot(x=tips["total_bill"])
+    b.axes.set_title("Title",fontsize=50)
+    b.set_xlabel("X Label",fontsize=30)
+    b.set_ylabel("Y Label",fontsize=20)
+    
+    
+    plt.figure(figsize=(20, 10))
+    sns.barplot(x=top10_names, y=top10_values)
+    plt.xticks(rotation=45)
+    plt.xlabel('Features', fontsize=15)
+    plt.ylabel('Percent of missing values', fontsize=15)
+    plt.title('Percent missing data by feature', fontsize=15)
+    
+    
+    
+    plt.figure(figsize=(15,8))
+    plt.title('Train Data Pawpularity Score Distribution', size=24)
+    plt.hist(train['Pawpularity'], bins=32)
+    plt.show()
+    
+    
+    
+    Wordcloud :
+    
+    def nonan(x):
+        if type(x) == str:
+            return x.replace("\n", "")
+        else:
+            return ""
+
+    text = ' '.join([nonan(abstract) for abstract in train["comment_text"]])
+    wordcloud = WordCloud(max_font_size=None, background_color='black', collocations=False,
+                          width=1200, height=1000).generate(text)
+    fig = px.imshow(wordcloud)
+    fig.update_layout(title_text='Common words in comments')
+
+
+
+
+How to plot high-resolution picture using seaborn:
+
+plt.figure(figsize=(18, 10))  # 18 is the key always keep breadth 18 and then adjust length according to that.
+
+
+plt.figure(figsize=(10, 6), dpi = 400) # dpi is also an option to increase the size but it is so tricky and time consuming. I think the default dpi is 78. 
+# Thats why i prefer figsize breath 18 and then adjust according to 18.
+    
+    
+ 
+ 
+ 
+Seaborn Vs Plotly Express: 
+
+Plotly Express provide same good looking graphs with few code lines and interactive on the other hand. Another good aspect in Plotly Express is that formatting the graphs is lot more easily than Seaborn with in same number of code lines. 
+
+Install Plotly : pip install plotly 
+ 
+# Importing:
+import plotly_express as px ##Plotly Express need only one line to load the libraries  
+    
+Plotly: 
+
+Scatter plot option in Plotly is very good way to visualize different dimensions of variability in the dataset.
+
+Best theme in plotly : 'ggplot2'
+
+#Scatter Plot: 
+fig = px.scatter(auto, x="engine_size", y="horsepower",color="drive_wheels",size='price',hover_data=['number_of_doors'],width=900, height=500)
+fig.show()
+
+
+
+#BoxPlot: 
+fig = px.box(auto, x="number_of_doors", y="horsepower")
+fig.show()
+# costumised:
+fig = px.box(auto, x="number_of_doors", y="horsepower",width=600, height=400)
+fig.show()
+
+# Ultra customisation: 
+
+# Defining the plot with Size and Title text 
+fig = px.box(auto, x="number_of_doors", y="horsepower",width=700, height=500,title='Plotly Express Box Plot',labels={"horsepower": "Horsepower",  "number_of_doors": "No of Doors"}) 
+fig.update_layout(font_family="Courier New", # Changing Styling of the plot 
+    font_color="black",
+    font_size=16,              
+    title_font_family="Times New Roman",
+    title_font_color="green",
+    title_font_size=26,              
+    title={'y':0.9,'x':0.5}) # Change the Title Alignment
+fig.show()
+
+# Histogram: 
+
+fig = px.histogram(auto, x="highway_mpg",histnorm='probability density',width=600, height=400)
+fig.show()
+
+
+# Distribution Plot
+import plotly.express as px
+def plot_distribution(df, x, title):
+
+    fig = px.histogram(
+    df, 
+    x = x,
+    width = 800,
+    height = 500,
+    title = title
+    )
+    
+    fig.show()
+    
+    
+    1. Award Name Distributions
+    
+plot_distribution(df = awards, x = 'clean_awardName_len', title = 'Award Name Length Distribution')
+
+plot_distribution(df = awards, x = 'clean_awardName_word_count', title = 'Word Count Distribution')
+
+plot_distribution(df = awards, x = 'clean_awardName_char_count', title = 'Character Count Distribution')
+
+plot_distribution(df = awards, x = 'clean_playerName_len', title = 'Award Name Length Distribution')
+
+
+
+
+
+
+    
+    
+how to set rotation in plotly( x tick rotate x-tick)
+    fig.update_xaxes(tickangle= -90)
+    fig.show()
+    
+how to undo a cell deletion on jupyter notebook
+
+    esc + Z
+
+set size for scatter plot dots in plotly:
+    fig.update_traces(marker={'size': 15})
+    
+    
+    Alternatively, you could also create an extra column with a dummy number value in it AND use argument size_max to specify the size you want to give your markers:
+
+df['dummy_column_for_size'] = 1.
+
+# argument size_max really determines the marker size!
+px.scatter(
+    df,
+    x='colA', 
+    y='colB', 
+    size='dummy_column_for_size',
+    size_max=15,
+    width=500,
+)
+    
+    
+    # For boundry and fixed size
+    
+    fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species")
+
+    fig.update_traces(marker=dict(size=12,
+                              line=dict(width=2,
+                                        color='DarkSlateGrey')),
+                  selector=dict(mode='markers'))
+    fig.show()
+
+
+
+
+
+marker=dict(
+            color='LightSkyBlue',
+            size=20,
+            line=dict(
+                color='MediumPurple', # could try 'hex'
+                width=2
+            )
+    
+    
+    
+
+
+how to locate hue label. how to move hue label in matplotlib
+
+    You can also use the bbox_to_anchor() argument to place the legend outside of the plot. For example, you can use the following syntax to place the legend in the top right corner outside of the plot:
+
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
+    
+    
+    #place legend in center right of plot
+plt.legend(loc='center right', title='Team')
+
+#place legend outside top right corner of plot
+plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
+
+
+#place legend outside bottom right corner of plot
+plt.legend(bbox_to_anchor=(1.02, 0.15), loc='upper left', borderaxespad=0)
+
+plt.legend(loc = "upper left")
+
+
+As documentation says, for the string referencing you can use:
+
+        ===============   =============
+        Location String   Location Code
+        ===============   =============
+        'best'            0
+        'upper right'     1
+        'upper left'      2
+        'lower left'      3
+        'lower right'     4
+        'right'           5
+        'center left'     6
+        'center right'    7
+        'lower center'    8
+        'upper center'    9
+        'center'          10
+        ===============   =============
+
+
+
+
+
+color palette in plotly : 
+
+    # to see the color palette: 
+    fig = px.colors.qualitative.swatches()
+    fig.show()
+
+
+    fig = px.colors.sequential.swatches_continuous()
+    fig.show()
+
+
+# Descrete : to Apply one of the palette called : G10 
+
+color_discrete_sequence= px.colors.sequential.Plasma_r # this is the line
+
+
+fig = px.line(df, y="lifeExp", x="year", color="continent", line_group="country",
+              line_shape="spline", render_mode="svg",
+             color_discrete_sequence=px.colors.qualitative.G10, # this is the line
+             title="Built-in G10 color sequence")
+
+fig.show()
+
+
+
+
+# this is for continuous 
+df = px.data.iris()
+fig = px.scatter(df, x="sepal_width", y="sepal_length",
+                 color="sepal_length", color_continuous_scale= 'Inferno')
+
+fig.show()
+
+
+
+
+ 
+ 
+ 
+how to remove color legends from plotly:
+how to include for zero value also in scatter plot
+best template in plotly
+How to make kde histogram in plotly:
+how to show Probability Density function in plotly:
+
+
+
+

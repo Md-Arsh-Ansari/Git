@@ -3,22 +3,17 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout << "enter a number: ";
-    cin >> n;
+    int num, dabba = 0, inhand = 1;
+    cout << "Please enter a number: ";
+    cin >> num;
 
-    int row = 1;
-    while (row <= n)
+    while (inhand <= num)
     {
-        int column = 1;
-        while (column <= n)
-        {
-            cout << column;
-            column += 1;
-        }
-        row += 1;
-        cout << "\n";
+        dabba = dabba + inhand;
+        inhand += 1;
     }
+
+    cout << "The sum from 1 to " << num << " = " << dabba << endl;
 
     return 0;
 }

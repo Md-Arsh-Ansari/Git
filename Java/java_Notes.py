@@ -723,4 +723,467 @@ Variables declared inside blocks of code are only accessible by the code between
 
 # A block of code may exist on its own or it can belong to an if, while or for statement. In the case of for statements, variables declared in the statement itself are also available inside the block's scope.
         
+        
+        
+Java - What is OOP?
 
+#Object-oriented programming has several advantages over procedural programming:
+    OOP provides a clear structure for the programs
+    OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+    OOP makes it possible to create full reusable applications with less code and shorter development time
+    
+    
+"Classes and objects are the two main aspects of object-oriented programming."
+
+So, a class is a template for objects, and an object is an instance of a class.
+When the individual objects are created, they inherit all the variables and methods from the class.
+
+Create a class named "Main" with a variable x:
+
+    public class Main {
+      int x = 5;
+    }
+
+
+To create an object of Main, specify the class name, followed by the object name, and use the keyword "new":
+
+#Example
+Create an object called "myObj" and print the value of x:
+
+    public class Main {
+      int x = 5;
+
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println(myObj.x);
+      }
+    }
+    # Output: 5
+    
+    #Create two objects of Main:
+    public class Main {
+      int x = 5;
+
+      public static void main(String[] args) {
+        Main myObj1 = new Main();  # Object 1
+        Main myObj2 = new Main();  # Object 2
+        System.out.println(myObj1.x);
+        System.out.println(myObj2.x);
+      }
+    }
+    
+
+#Using Multiple Classes
+You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+Remember that the name of the java file should match the class name. In this example, we have created two files in the same directory/folder:
+
+    Main.java
+    Second.java
+    
+#Main.java
+    public class Main {
+      int x = 5;
+    }
+
+
+#Second.java
+    class Second {
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println(myObj.x);
+      }
+    }
+    
+#When both files have been compiled:
+    #C:\Users\Your Name>javac Main.java
+    #C:\Users\Your Name>javac Second.java
+    
+Run the Second.java file:
+
+#C:\Users\Your Name>java Second
+#And the output will be:
+
+#5
+
+
+
+Java Class Attributes
+In the previous chapter, we used the term "variable" for x in the example (as shown below). It is actually an attribute of the class. Or you could say that class attributes are variables within a class:
+
+#Create a class called "Main" with two attributes: x and y:
+    public class Main {
+      int x = 5;
+      int y = 3;
+    }
+#Another term for class attributes is fields.
+
+
+
+#Accessing Attributes
+You can access attributes by creating an object of the class, and by using the dot syntax (.):
+
+The following example will create an object of the Main class, with the name "myObj". We use the x attribute on the object to print its value:
+
+#Create an object called "myObj" and print the value of x:
+
+    public class Main {
+      int x = 5;
+
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println(myObj.x);
+      }
+    }
+    
+    
+Modify Attributes
+#You can also modify attribute values:
+
+#Set the value of x to 40:
+
+    public class Main {
+      int x;
+
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        myObj.x = 40;
+        System.out.println(myObj.x);
+      }
+    }
+    
+#Or override existing values:
+#Change the value of x to 25:
+
+    public class Main {
+      int x = 10;
+
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        myObj.x = 25; // x is now 25
+        System.out.println(myObj.x);
+      }
+    }
+    
+#If you don't want the ability to override existing values, declare the attribute as final:
+    public class Main {
+      final int x = 10;
+      
+      
+      #The final keyword is called a "modifier".
+      #The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
+      
+      
+Multiple Objects
+If you create multiple objects of one class, you can change the attribute values in one object, without affecting the attribute values in the other:
+
+#Change the value of x to 25 in myObj2, and leave x in myObj1 unchanged:
+    public class Main {
+      int x = 5;
+
+      public static void main(String[] args) {
+        Main myObj1 = new Main();  // Object 1
+        Main myObj2 = new Main();  // Object 2
+        myObj2.x = 25;
+        System.out.println(myObj1.x);  // Outputs 5
+        System.out.println(myObj2.x);  // Outputs 25
+      }
+    }
+
+
+Multiple Attributes
+#You can specify as many attributes as you want:
+
+    public class Main {
+      String fname = "John";
+      String lname = "Doe";
+      int age = 24;
+
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+        System.out.println("Age: " + myObj.age);
+      }
+    }
+
+
+Java Class Methods:
+
+#Create a method named myMethod() in Main:
+
+    public class Main {
+      static void myMethod() {
+        System.out.println("Hello World!");
+      }
+    }
+ 
+
+
+myMethod() prints a text (the action), when it is called. To call a method, write the method's name followed by two parentheses () and a semicolon;
+#Inside main, call myMethod():
+
+    public class Main {
+      static void myMethod() {
+        System.out.println("Hello World!");
+      }
+
+      public static void main(String[] args) {
+        myMethod();
+      }
+    }
+
+    # Outputs "Hello World!"
+
+
+
+
+Static vs. Public
+You will often see Java programs that have either static or public attributes and methods.
+
+In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+
+Example
+#An example to demonstrate the differences between static and public methods:
+
+
+    public class Main {
+      // Static method
+      static void myStaticMethod() {
+        System.out.println("Static methods can be called without creating objects");
+      }
+
+      // Public method
+      public void myPublicMethod() {
+        System.out.println("Public methods must be called by creating objects");
+      }
+
+      // Main method
+      public static void main(String[] args) {
+        myStaticMethod(); // Call the static method
+        // myPublicMethod(); This would compile an error
+
+        Main myObj = new Main(); // Create an object of Main
+        myObj.myPublicMethod(); // Call the public method on the object
+      }
+    }
+    # Output: 
+        #Static methods can be called without creating objects
+        #Public methods must be called by creating objects
+
+
+
+
+Access Methods With an Object
+
+#Create a Car object named myCar. Call the fullThrottle() and speed() methods on the myCar object, and run the program:
+
+    // Create a Main class
+    public class Main {
+     
+      // Create a fullThrottle() method
+      public void fullThrottle() {
+        System.out.println("The car is going as fast as it can!");
+      }
+
+      // Create a speed() method and add a parameter
+      public void speed(int maxSpeed) {
+        System.out.println("Max speed is: " + maxSpeed);
+      }
+
+      // Inside main, call the methods on the myCar object
+      public static void main(String[] args) {
+        Main myCar = new Main();   // Create a myCar object
+        myCar.fullThrottle();      // Call the fullThrottle() method
+        myCar.speed(200);          // Call the speed() method
+      }
+    }
+
+    
+    # The car is going as fast as it can!
+    # Max speed is: 200
+
+
+#Example explained
+    1) We created a custom Main class with the class keyword.
+
+    2) We created the fullThrottle() and speed() methods in the Main class.
+
+    3) The fullThrottle() method and the speed() method will print out some text, when they are called.
+
+    4) The speed() method accepts an int parameter called maxSpeed - we will use this in 8).
+
+    5) In order to use the Main class and its methods, we need to create an object of the Main Class.
+
+    6) Then, go to the main() method, which you know by now is a built-in Java method that runs your program (any code inside main is executed).
+
+    7) By using the new keyword we created an object with the name myCar.
+
+    8) Then, we call the fullThrottle() and speed() methods on the myCar object, and run the program using the name of the object (myCar), followed by a dot (.), followed by the name of the method (fullThrottle(); and speed(200);). Notice that we add an int parameter of 200 inside the speed() method.
+
+
+#Remember that..
+    The dot (.) is used to access the object's attributes and methods.
+
+    To call a method in Java, write the method name followed by a set of parentheses (), followed by a semicolon (;).
+
+    A class must have a matching filename (Main and Main.java).
+
+
+
+Using Multiple Classes
+Like we specified in the Classes chapter, it is a good practice to create an object of a class and access it in another class.
+
+Remember that the name of the java file should match the class name. In this example, we have created two files in the same directory:
+
+    Main.java
+    Second.java
+
+#Main.java
+    public class Main {
+      public void fullThrottle() {
+        System.out.println("The car is going as fast as it can!");
+      }
+
+      public void speed(int maxSpeed) {
+        System.out.println("Max speed is: " + maxSpeed);
+      }
+    }
+    
+#Second.java
+    class Second {
+      public static void main(String[] args) {
+        Main myCar = new Main();     // Create a myCar object
+        myCar.fullThrottle();      // Call the fullThrottle() method
+        myCar.speed(200);          // Call the speed() method
+      }
+    }
+    
+    
+When both files have been compiled:
+
+    C:\Users\Your Name>javac Main.java
+    C:\Users\Your Name>javac Second.java
+
+Run the Second.java file:
+    C:\Users\Your Name>java Second
+
+
+#And the output will be:
+    #The car is going as fast as it can!
+    #Max speed is: 200
+
+
+
+
+Java Constructors
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+Java User Input (Scanner)
+
+
+#Java User Input
+The Scanner class is used to get user input, and it is found in the java.util package.
+
+To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation. In our example, we will use the nextLine() method, which is used to read Strings:
+
+
+#Example
+    import java.util.Scanner;  # Import the Scanner class
+
+    class Main {
+      public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);  # Create a Scanner object
+        System.out.println("Enter username");
+
+        String userName = myObj.nextLine();  # Read user input
+        System.out.println("Username is: " + userName);  # Output user input
+      }
+    }    
+       
+
+
+#Input Types
+In the example above, we used the nextLine() method, which is used to read Strings. To read other types, look at the table below:
+
+Method	        Description
+nextBoolean()	    Reads a boolean value from the user
+nextByte()	    Reads a byte value from the user
+nextDouble()	    Reads a double value from the user
+nextFloat()	    Reads a float value from the user
+nextInt()	        Reads a int value from the user
+nextLine()	    Reads a String value from the user
+nextLong()	    Reads a long value from the user
+nextShort()	    Reads a short value from the user
+
+
+
+#In the example below, we use different methods to read data of various types:
+
+#Example
+    import java.util.Scanner;
+
+    class Main {
+      public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+
+        System.out.println("Enter name, age and salary:");
+
+        // String input
+        String name = myObj.nextLine();
+
+        // Numerical input
+        int age = myObj.nextInt();
+        double salary = myObj.nextDouble();
+
+        // Output input by user
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
+      }
+    }
+    
+    
+ 
+ 
+Java How To Add Two Numbers
+
+
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+    System.out.println(sum); // Print the sum of x + y
+    
+    
+
+#Add Two Numbers with User Input
+
+#Example
+    import java.util.Scanner; #Import the Scanner class
+
+    class MyClass {
+      public static void main(String[] args) {
+        int x, y, sum;
+        Scanner myObj = new Scanner(System.in); # Create a Scanner object
+        System.out.println("Type a number:");
+        x = myObj.nextInt(); # Read user input
+
+        System.out.println("Type another number:");
+        y = myObj.nextInt(); # Read user input
+
+        sum = x + y;  # Calculate the sum of x + y
+        System.out.println("Sum is: " + sum); # Print the sum
+      }
+    }    
+    
+  
+    
